@@ -1,7 +1,8 @@
 # h0 Hei weppi
 
 a) Tässä palautukseni kurssin ensimmäiseen tehtävään: Julkaise oma sivu weppiin.
-En keksinyt mitään omaperäistä tai säkenöivää
+
+En keksinyt mitään omaperäistä tai säkenöivää...
 
 ## Kyseinen kurssi: Linux-palvelimet s2024 
 
