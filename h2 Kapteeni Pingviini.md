@@ -47,7 +47,7 @@ vaikuttanut olevan haittaa.
 ## b) Apt. Uusien komentoriviohjelmien asentaminen
 
 Seuraavaksi tehtävänäni oli asentaa terminaalilla itselleni komentoriviohjelmia. En ennestään tiennyt nimeltä yhtään tällaista, joten jouduin etsimään tietoa Googlesta.
-Löysin monia mielenkiintoisia ohjelmia, mutta päädyin seuraaviin. Httpie, Asciinema sekä Hexyl.
+Löysin monia mielenkiintoisia ohjelmia, mutta päädyin seuraaviin. Httpie, Asciinema sekä Hexyl. 
 
 ![Näyttökuva 2024-09-01 205431](https://github.com/user-attachments/assets/a79d8f05-5f0b-4729-9dbd-20801a99483b)
 
@@ -56,7 +56,51 @@ Asciinema on siis ohjelma, jolla voin tallentaa ja toistaa terminaalissa antamia
 
 ![Näyttökuva 2024-09-01 211931](https://github.com/user-attachments/assets/18a1b4f9-e5b5-4ce4-8676-bb3cefc00d0a)
 
-Hexyl on ohjelma, joka jolla voi tutkia hexa-merkkejä ja se näyttää eri värein eri bittejä (en ole aivan satavarma, mihin tätä käyttää, mutta se tuli minulle vastaan kun etsin asennettavia ohjelmia...)
+Hexyl on ohjelma, joka jolla voi tutkia hexa-merkkejä ja se näyttää eri värein eri bittejä (en ole aivan satavarma, mihin tätä käyttää, mutta se tuli minulle vastaan kun etsin asennettavia ohjelmia...) (https://github.com/sharkdp/hexyl)
+
+![Näyttökuva 2024-09-01 212252](https://github.com/user-attachments/assets/f26874f5-ae71-4a44-a18b-172bb87b0b6c)
+
+Httpie on Open Source ohjelma, jolla kehittäjät voivat testatta APIen toimivuutta. Ohjelmaa voi varmasti käyttää muuhunkin, mutta tämän verran siitä sain asiaa irti. (https://httpie.io/)
+
+![Näyttökuva 2024-09-01 213104](https://github.com/user-attachments/assets/e66bd8b4-0af3-4d7a-a7a1-7d991083d052)
+
+Yritin asentaa kaikkia kolmea ohjelmaa komennolla "sudo apt-get install hexyl asciinema httpie", mutta jostain syystä tämä ei toiminut. Päädyin asentamaan kaikki yksitellen. 
+
+## c) FHS
+
+Tässä tehtävässä kävin läpi Tero Karvisen Command Line Basics Revisited-sivun Important directories-osuudessa mainittuja kansioita.
+
+/root directory eli juurihakemisto
+
+![Näyttökuva 2024-09-01 214358](https://github.com/user-attachments/assets/c5018f49-e2a1-46f1-848b-b7489bbda667)
+
+/home/ eli kotihakemisto
+
+![Näyttökuva 2024-09-01 214652](https://github.com/user-attachments/assets/bc564f68-44af-457b-80c1-b4d361dbeae4)
+
+/home/aleksp/ = käyttäjän aleksp eli allekirjoittaneen kotihakemisto. Sieltä löytyy aiemmin nanolla luomani FOOBAR.txt tiedosto sekä luomani kansio linuxkurssi.
+
+![Näyttökuva 2024-09-01 214938](https://github.com/user-attachments/assets/975d82b1-5944-4255-aa0a-0f8eac90a429)
+
+/etc/ eli järjestelmäasetukset
+
+![Näyttökuva 2024-09-01 215510](https://github.com/user-attachments/assets/b2a5d5c2-3cf9-435f-b4fc-b143823ed343)
+![Näyttökuva 2024-09-01 215720](https://github.com/user-attachments/assets/8ffed2b0-0c83-4f7d-8915-12fe957a8ecf)
+
+En saanut kuvankaappauksella koko komennon listaamaa hakua näkyviin. Siksi laitoin kaksi kuvaa tästä.
+
+/media/ = Jos koneellani olisi esimerkiksi ulkoisia kovalevyjä, ne olisivat täällä
+
+![Näyttökuva 2024-09-01 215954](https://github.com/user-attachments/assets/8d0b775a-adc9-42e2-b6bb-f15b27e2c95b)
+
+/var/log/ = Täältä löytyy järjestelmän lokitietoja
+
+![Näyttökuva 2024-09-01 220400](https://github.com/user-attachments/assets/0a9e4cff-feae-485a-b1dd-381c91aa076a)
+
+
+
+
+
 
 
 
