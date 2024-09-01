@@ -39,7 +39,9 @@ micro, ja sain ilmoituksen, että microsta on olemassa jo uusin versio.  Eli vai
 vaikuttanut olevan haittaa.
 
 ![Näyttökuva 2024-09-01 165139](https://github.com/user-attachments/assets/49bbd77f-5124-4ba9-93ff-58db0aaa5f20)
+
 ![Näyttökuva 2024-09-01 165315](https://github.com/user-attachments/assets/c76fd24d-9cc1-47f4-8cec-486c6005e61a)
+
 ![Näyttökuva 2024-09-01 165406](https://github.com/user-attachments/assets/efba7890-1ca8-44bc-88ca-d9a290c65ba3)
 
 
