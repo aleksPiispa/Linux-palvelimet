@@ -60,7 +60,7 @@ Hexyl on ohjelma, joka jolla voi tutkia hexa-merkkejä ja se näyttää eri vär
 
 ![Näyttökuva 2024-09-01 212252](https://github.com/user-attachments/assets/f26874f5-ae71-4a44-a18b-172bb87b0b6c)
 
-Httpie on Open Source ohjelma, jolla kehittäjät voivat testatta APIen toimivuutta. Ohjelmaa voi varmasti käyttää muuhunkin, mutta tämän verran siitä sain asiaa irti. (https://httpie.io/)
+Httpie on Open Source ohjelma, jolla kehittäjät voivat testata APIen toimivuutta. Ohjelmaa voi varmasti käyttää muuhunkin, mutta tämän verran siitä sain asiaa irti. (https://httpie.io/)
 
 ![Näyttökuva 2024-09-01 213104](https://github.com/user-attachments/assets/e66bd8b4-0af3-4d7a-a7a1-7d991083d052)
 
