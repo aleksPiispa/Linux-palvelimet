@@ -5,7 +5,7 @@ Teen kurssin tehtäviä Lenovon Ideapad 5 Pro 13ARH7 -kannettavalla. Käyttöjä
 ja koneessa on 16GB RAM-muistia sekä suorittimena AMD Ryzen 5 6600HS Creator Edition.
 Näytönohjain: AMD Radeon 660M Graphics. Storage: M.2 SSD 512Gt, vapaana 343Gt.
 
-Aloitin tämän tehtävän tekemisen 1.9.2024 klo 16.15-17 ja jatkoin klo 20.30.
+Aloitin tämän tehtävän tekemisen 1.9.2024 klo 16.15-17 ja jatkoin klo 20.30-22.30. Tein loput harjoitukset ja raportoinnin loppuun 2.9.2024 klo
 
 # h2 Komentaja Pingviini
 
