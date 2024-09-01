@@ -5,7 +5,7 @@ Teen kurssin tehtäviä Lenovon Ideapad 5 Pro 13ARH7 -kannettavalla. Käyttöjä
 ja koneessa on 16GB RAM-muistia sekä suorittimena AMD Ryzen 5 6600HS Creator Edition.
 Näytönohjain: AMD Radeon 660M Graphics. Storage: M.2 SSD 512Gt, vapaana 343Gt.
 
-Aloitin tämän tehtävän tekemisen 1.9.2024 klo 16.15-17 ja jatkoin tehtävien tekoa klo TBD
+Aloitin tämän tehtävän tekemisen 1.9.2024 klo 16.15-17 ja jatkoin klo 20.30.
 
 # h2 Komentaja Pingviini
 
@@ -43,6 +43,22 @@ vaikuttanut olevan haittaa.
 ![Näyttökuva 2024-09-01 165315](https://github.com/user-attachments/assets/c76fd24d-9cc1-47f4-8cec-486c6005e61a)
 
 ![Näyttökuva 2024-09-01 165406](https://github.com/user-attachments/assets/efba7890-1ca8-44bc-88ca-d9a290c65ba3)
+
+## b) Apt. Uusien komentoriviohjelmien asentaminen
+
+Seuraavaksi tehtävänäni oli asentaa terminaalilla itselleni komentoriviohjelmia. En ennestään tiennyt nimeltä yhtään tällaista, joten jouduin etsimään tietoa Googlesta.
+Löysin monia mielenkiintoisia ohjelmia, mutta päädyin seuraaviin. Httpie, Asciinema sekä Hexyl.
+
+![Näyttökuva 2024-09-01 205431](https://github.com/user-attachments/assets/a79d8f05-5f0b-4729-9dbd-20801a99483b)
+
+Löysin Asciineman asentamiseen ja käyttöön ohjeet täältä: https://docs.asciinema.org/getting-started/#__tabbed_1_2
+Asciinema on siis ohjelma, jolla voin tallentaa ja toistaa terminaalissa antamiani komentoja. Se ei ainoastaan tallenna komentoja vaan nauhoittaa ne, oli se toistaa nauhoitusta yhtä kauan kuin sitä tein. Aika siistiä!
+
+![Näyttökuva 2024-09-01 211931](https://github.com/user-attachments/assets/18a1b4f9-e5b5-4ce4-8676-bb3cefc00d0a)
+
+Hexyl on ohjelma, joka jolla voi tutkia hexa-merkkejä ja se näyttää eri värein eri bittejä (en ole aivan satavarma, mihin tätä käyttää, mutta se tuli minulle vastaan kun etsin asennettavia ohjelmia...)
+
+
 
 
 
