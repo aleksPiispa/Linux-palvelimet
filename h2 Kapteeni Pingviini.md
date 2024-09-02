@@ -14,14 +14,14 @@ Aloitin tämän tehtävän tekemisen 1.9.2024 klo 16.15-17 ja jatkoin klo 20.30-
 Linuxin komentorivi käyttää monia komentoja, jotka olivat olemassa jo aikana ennen Linuxia ja internetiä. Komennot ovat kestäneet hyvin aikaa,
 sillä niiden avulla työskentely on tänäkin päivänä nopeaa. Tärkeimpiä komentoja, jotka olisi hyvä opetella ulkoa:
 
-pwd = "print working directory" eli tulosta nykyisen työhakemiston sijainti
-mkdir "nimi" = luo uusi hakemisto eli kansio
-ls = listaa hakemiston sisältö, eli tiedostot sekä alihakemistot
-cd .. = liiku ylöspäin hakemistossa
-cd "hakemiston nimi" = liiku haluttuun hakemistoon
-nano FOO.txt = avataan nano-tekstieditori ja avataan tai luodaan siellä tiedosto nimeltään FOO.txt
-less teksti.txt = näytä sivu kerrallaan tiedostosta, sivuja voi vaihtaa b = edellinen sivu ja välilyönti = seuraava sivu
-man ls = listaa ohjeita
+- pwd = "print working directory" eli tulosta nykyisen työhakemiston sijainti
+- mkdir "nimi" = luo uusi hakemisto eli kansio
+- ls = listaa hakemiston sisältö, eli tiedostot sekä alihakemistot
+- cd .. = liiku ylöspäin hakemistossa
+- cd "hakemiston nimi" = liiku haluttuun hakemistoon
+- nano FOO.txt = avataan nano-tekstieditori ja avataan tai luodaan siellä tiedosto nimeltään FOO.txt
+- less teksti.txt = näytä sivu kerrallaan tiedostosta, sivuja voi vaihtaa b = edellinen sivu ja välilyönti = seuraava sivu
+- man ls = listaa ohjeita
 
 (Karvinen, 2020)
 
