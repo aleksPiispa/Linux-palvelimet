@@ -5,7 +5,7 @@ Teen kurssin tehtäviä Lenovon Ideapad 5 Pro 13ARH7 -kannettavalla. Käyttöjä
 ja koneessa on 16GB RAM-muistia sekä suorittimena AMD Ryzen 5 6600HS Creator Edition.
 Näytönohjain: AMD Radeon 660M Graphics. Storage: M.2 SSD 512Gt, vapaana 343Gt.
 
-Aloitin tämän tehtävän tekemisen 1.9.2024 klo 16.15-17 ja jatkoin klo 20.30-22.30. Tein loput harjoitukset ja raportoinnin loppuun 2.9.2024 klo
+Aloitin tämän tehtävän tekemisen 1.9.2024 klo 16.15-17 ja jatkoin klo 20.30-22.30. Tein loput harjoitukset ja raportoinnin loppuun 2.9.2024 klo 13.15-
 
 # h2 Komentaja Pingviini
 
@@ -96,6 +96,12 @@ En saanut kuvankaappauksella koko komennon listaamaa hakua näkyviin. Siksi lait
 /var/log/ = Täältä löytyy järjestelmän lokitietoja
 
 ![Näyttökuva 2024-09-01 220400](https://github.com/user-attachments/assets/0a9e4cff-feae-485a-b1dd-381c91aa076a)
+
+## d) The Friendly M. 
+
+Tässä tehtävässä tuli käyttää grep-komentoa sekä näyttää esimerkkejä sen käytöstä.
+Grep on tehokas työkalu, jonka avulla voidaan etsiä tiettyjä sanoja tai merkkijonoja tiedostoista. 
+Grep tulee sanoista "search "b"g"b"lobally for a "b"r"b"egular "b"e"b"xpression and "b"p"b"rint
 
 
 
