@@ -5,14 +5,14 @@ Teen kurssin tehtäviä Lenovon Ideapad 5 Pro 13ARH7 -kannettavalla. Käyttöjä
 ja koneessa on 16GB RAM-muistia sekä suorittimena AMD Ryzen 5 6600HS Creator Edition.
 Näytönohjain: AMD Radeon 660M Graphics. Storage: M.2 SSD 512Gt, vapaana 343Gt.
 
-Aloitin tämän tehtävän tekemisen 1.9.2024 klo 16.15-17 ja jatkoin klo 20.30-22.30. Tein loput harjoitukset ja raportoinnin loppuun 2.9.2024 klo 13.15-
+Aloitin tämän tehtävän tekemisen 1.9.2024 klo 16.15-17 ja jatkoin klo 20.30-22.30. Tein loput harjoitukset ja raportoinnin loppuun 2.9.2024 klo 13.15-14.30.
 
 # h2 Komentaja Pingviini
 
 ## x) Command line basics revisited
 
-Linuxin komentorivi käyttää monia komentoja, jotka olivat olemassa jo aikana ennen Linuxia. Komennot ovat kestäneet hyvin aikaa,
-sillä niiden avulla työskentely on nopeaa. Tärkeimpiä komentoja, jotka olisi hyvä opetella ulkoa:
+Linuxin komentorivi käyttää monia komentoja, jotka olivat olemassa jo aikana ennen Linuxia ja internetiä. Komennot ovat kestäneet hyvin aikaa,
+sillä niiden avulla työskentely on tänäkin päivänä nopeaa. Tärkeimpiä komentoja, jotka olisi hyvä opetella ulkoa:
 
 pwd = "print working directory" eli tulosta nykyisen työhakemiston sijainti
 mkdir "nimi" = luo uusi hakemisto eli kansio
@@ -46,8 +46,8 @@ vaikuttanut olevan haittaa.
 
 ## b) Apt. Uusien komentoriviohjelmien asentaminen
 
-Seuraavaksi tehtävänäni oli asentaa terminaalilla itselleni komentoriviohjelmia. En ennestään tiennyt nimeltä yhtään tällaista, joten jouduin etsimään tietoa Googlesta.
-Löysin monia mielenkiintoisia ohjelmia, mutta päädyin seuraaviin. Httpie, Asciinema sekä Hexyl. 
+Seuraavaksi tehtävänäni oli asentaa terminaalia käyttäen itselleni komentoriviohjelmia. En ennestään tiennyt nimeltä yhtään tällaista, joten jouduin etsimään tietoa Googlesta.
+Löysin monia mielenkiintoisia ohjelmia, mutta päädyin seuraaviin, sillä ne eivät tarvinneet useita esiasennuksia muista ohjelmista, jotta ne toimisivat. Asensin ohjelmat: Httpie, Asciinema sekä Hexyl. 
 
 ![Näyttökuva 2024-09-01 205431](https://github.com/user-attachments/assets/a79d8f05-5f0b-4729-9dbd-20801a99483b)
 
@@ -68,7 +68,7 @@ Yritin asentaa kaikkia kolmea ohjelmaa komennolla "sudo apt-get install hexyl as
 
 ## c) FHS
 
-Tässä tehtävässä kävin läpi Tero Karvisen Command Line Basics Revisited-sivun Important directories-osuudessa mainittuja kansioita.
+Tässä tehtävässä kävin läpi Tero Karvisen Command Line Basics Revisited-sivun Important directories-osuudessa mainittuja kansioita esimerkein.
 
 /root directory eli juurihakemisto
 
@@ -111,22 +111,25 @@ Loin tätä tehtävää varten muutaman tiedoston, joita etsin terminaalista kä
 
 ## e) Pipe
 
-Pipe eli putki, terminaalissa "| |" merkki. Sen avulla on mahdollista yhdistää kaksi tai useampi komento samaan lausekkeeseen. Kokeilin putkea jo edellisessä esimerkissä, mutta tässä vielä lisää. Käytin putkea listaamaan tekstitiedostoja.
+Pipe eli putki, terminaalissa "|" merkki. Sen avulla on mahdollista yhdistää kaksi tai useampi komento samaan lausekkeeseen. Kokeilin putkea jo edellisessä esimerkissä, mutta tässä vielä lisää. Käytin putkea listaamaan tekstitiedostoja.
 
 ![Näyttökuva 2024-09-02 134108](https://github.com/user-attachments/assets/056d2bb5-0124-4e91-9507-3c190dc5ba77)
 
 ## f) Rauta
 
-Tehtävänä oli ajaa terminaalissa komento "sudo lshw -short -sanitize". Asensin ensiksi lshw:n komennolla "sudo apt-get install lshw" ja päivitin "sudo apt-get update".
+Tehtävänä oli ajaa terminaalissa komento "sudo lshw -short -sanitize". Ensialkuun asensin lshw:n komennolla "sudo apt-get install lshw" ja päivitin "sudo apt-get update".
 Tämän jälkeen ajoin komennon "sudo lshw -short -sanitize", lshw tulee sanoista list hardware.
 Tulosteena tuli listaus virtuaalikoneeni osista (mitä siihen asentaessa tuli) ja niiden yksityiskohtaisemmista tiedoista. Esimerkiksi siinä näkyi, kuinka paljon muistia koneelle on määritetty (4Gb) ja mitä prosessoria virtuaalikoneeni käyttää (AMD Ryzen 5). 
 
 ![Näyttökuva 2024-09-02 134657](https://github.com/user-attachments/assets/325fd05d-98d5-4f55-9a45-2fc0a8e85c2a)
 
 
+Minulla meni tämän viikon tehtävien tekoon aikaa noin 4 tuntia. Tein tehtävän pätkissä, silloin kun minun oli mahdollisuus päästä koneen ääreen. Oli äärimmäisen helppoa jatkaa raportin tekoa GitHubissa, kun siihen palasi ja näki senhetkisen tilan. Tällä kertaa minulla ei myöskään mennyt läheskään yhtä kauan GH:n opetteluun, kuin edellisen viikon tehtävässä. 
+
+
 ## Lähteet
 
-LinuxLinks.com n.d. Luettavissa. https://www.linuxlinks.com/100-great-must-have-cli-linux-applications/. Luettu 1.9.2024.
+Ikonen, A. Hynninen, T. Vanhala, E. 2015. Terminaali tutuksi - Linux ja komentorivin hallinta. Luettavissa: https://lutpub.lut.fi/bitstream/handle/10024/104311/Linux-opas.pdf?sequence=2. Luettu 2.9.2024.
 
 Karvinen, T. 2024. Linux palvelimet 2024 alkusyksy. Luettavissa. https://terokarvinen.com/linux-palvelimet/. Luettu 1.9.2024.
 
@@ -134,10 +137,9 @@ Karvinen, T. 2020. Command Line Basics Revisited. Luettavissa. https://terokarvi
 
 Kulik, M. 2023. Asciinema Getting started. Luettavissa. https://docs.asciinema.org/getting-started/#__tabbed_1_2. Luettu. 1.9.2024.
 
-Ikonen, A. Hynninen, T. Vanhala, E. 2015. Terminaali tutuksi - Linux ja komentorivin hallinta. Luettavissa: https://lutpub.lut.fi/bitstream/handle/10024/104311/Linux-opas.pdf?sequence=2. Luettu 2.9.2024.
+Lesonen L. 2023. h2 Kapteeeni Pingviini. Luettavissa. https://github.com/LiisaLesonen/linux-palvelimet/blob/main/h2.md. Luettu. 1.9.2024.
 
-Lesonen L. 2023. 
-
+LinuxLinks.com n.d. Luettavissa. https://www.linuxlinks.com/100-great-must-have-cli-linux-applications/. Luettu 1.9.2024.
 
 
 
