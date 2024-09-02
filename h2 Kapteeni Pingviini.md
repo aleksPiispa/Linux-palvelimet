@@ -101,7 +101,7 @@ En saanut kuvankaappauksella koko komennon listaamaa hakua näkyviin. Siksi lait
 
 Tässä tehtävässä tuli käyttää grep-komentoa sekä näyttää esimerkkejä sen käytöstä.
 Grep on tehokas työkalu, jonka avulla voidaan etsiä tiettyjä sanoja tai merkkijonoja tiedostoista. 
-Grep tulee sanoista "search "b"g"b"lobally for a "b"r"b"egular "b"e"b"xpression and "b"p"b"rint
+Grep tulee sanoista "search **g**lobally for a **r**egular **e**xpression and **p**rint
 
 
 
