@@ -137,7 +137,7 @@ Karvinen, T. 2020. Command Line Basics Revisited. Luettavissa. https://terokarvi
 
 Kulik, M. 2023. Asciinema Getting started. Luettavissa. https://docs.asciinema.org/getting-started/#__tabbed_1_2. Luettu. 1.9.2024.
 
-Lesonen L. 2023. h2 Kapteeeni Pingviini. Luettavissa. https://github.com/LiisaLesonen/linux-palvelimet/blob/main/h2.md. Luettu. 1.9.2024.
+Lesonen L. 2023. h2 Kapteeni Pingviini. Luettavissa. https://github.com/LiisaLesonen/linux-palvelimet/blob/main/h2.md. Luettu. 1.9.2024.
 
 LinuxLinks.com n.d. Luettavissa. https://www.linuxlinks.com/100-great-must-have-cli-linux-applications/. Luettu 1.9.2024.
 
