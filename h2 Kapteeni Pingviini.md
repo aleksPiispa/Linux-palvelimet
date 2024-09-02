@@ -124,7 +124,7 @@ Tulosteena tuli listaus virtuaalikoneeni osista (mitä siihen asentaessa tuli) j
 ![Näyttökuva 2024-09-02 134657](https://github.com/user-attachments/assets/325fd05d-98d5-4f55-9a45-2fc0a8e85c2a)
 
 
-Minulla meni tämän viikon tehtävien tekoon aikaa noin 4 tuntia. Tein tehtävän pätkissä, silloin kun minun oli mahdollisuus päästä koneen ääreen. Oli äärimmäisen helppoa jatkaa raportin tekoa GitHubissa, kun siihen palasi ja näki senhetkisen tilan. Tällä kertaa minulla ei myöskään mennyt läheskään yhtä kauan GH:n opetteluun, kuin edellisen viikon tehtävässä. 
+Minulla meni tämän viikon tehtävän tekoon aikaa noin 4 tuntia. Tein tehtävän pätkissä, silloin kun minun oli mahdollisuus päästä koneen ääreen. Oli äärimmäisen helppoa jatkaa raportin tekoa GitHubissa, kun siihen palasi ja näki senhetkisen tilan. Tällä kertaa minulla ei myöskään mennyt läheskään yhtä kauan GH:n opetteluun, kuin edellisen viikon tehtävässä. 
 
 
 ## Lähteet
