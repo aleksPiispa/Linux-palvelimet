@@ -97,13 +97,46 @@ En saanut kuvankaappauksella koko komennon listaamaa hakua näkyviin. Siksi lait
 
 ![Näyttökuva 2024-09-01 220400](https://github.com/user-attachments/assets/0a9e4cff-feae-485a-b1dd-381c91aa076a)
 
-## d) The Friendly M. 
+## d) The Friendly M
 
 Tässä tehtävässä tuli käyttää grep-komentoa sekä näyttää esimerkkejä sen käytöstä.
 Grep on tehokas työkalu, jonka avulla voidaan etsiä tiettyjä sanoja tai merkkijonoja tiedostoista. 
-Grep tulee sanoista "search **g**lobally for a **r**egular **e**xpression and **p**rint
+Grep tulee sanoista "search **g**lobally for a **r**egular **e**xpression and **p**rint".
+
+(Ikonen, Hynninen, Vanhala, 2015)
+
+Loin tätä tehtävää varten muutaman tiedoston, joita etsin terminaalista käyttäen grep-komentoa. En törmännyt virheisiin, joten vaikutti toimivan kuten pitikin.
+
+![Näyttökuva 2024-09-02 133703](https://github.com/user-attachments/assets/7b90e6b8-9f54-46a4-a5a1-c5f135871567)
+
+## e) Pipe
+
+Pipe eli putki, terminaalissa "| |" merkki. Sen avulla on mahdollista yhdistää kaksi tai useampi komento samaan lausekkeeseen. Kokeilin putkea jo edellisessä esimerkissä, mutta tässä vielä lisää. Käytin putkea listaamaan tekstitiedostoja.
+
+![Näyttökuva 2024-09-02 134108](https://github.com/user-attachments/assets/056d2bb5-0124-4e91-9507-3c190dc5ba77)
+
+## f) Rauta
+
+Tehtävänä oli ajaa terminaalissa komento "sudo lshw -short -sanitize". Asensin ensiksi lshw:n komennolla "sudo apt-get install lshw" ja päivitin "sudo apt-get update".
+Tämän jälkeen ajoin komennon "sudo lshw -short -sanitize", lshw tulee sanoista list hardware.
+Tulosteena tuli listaus virtuaalikoneeni osista (mitä siihen asentaessa tuli) ja niiden yksityiskohtaisemmista tiedoista. Esimerkiksi siinä näkyi, kuinka paljon muistia koneelle on määritetty (4Gb) ja mitä prosessoria virtuaalikoneeni käyttää (AMD Ryzen 5). 
+
+![Näyttökuva 2024-09-02 134657](https://github.com/user-attachments/assets/325fd05d-98d5-4f55-9a45-2fc0a8e85c2a)
 
 
+## Lähteet
+
+LinuxLinks.com n.d. Luettavissa. https://www.linuxlinks.com/100-great-must-have-cli-linux-applications/. Luettu 1.9.2024.
+
+Karvinen, T. 2024. Linux palvelimet 2024 alkusyksy. Luettavissa. https://terokarvinen.com/linux-palvelimet/. Luettu 1.9.2024.
+
+Karvinen, T. 2020. Command Line Basics Revisited. Luettavissa. https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited. Luettu 1.9.2024.
+
+Kulik, M. 2023. Asciinema Getting started. Luettavissa. https://docs.asciinema.org/getting-started/#__tabbed_1_2. Luettu. 1.9.2024.
+
+Ikonen, A. Hynninen, T. Vanhala, E. 2015. Terminaali tutuksi - Linux ja komentorivin hallinta. Luettavissa: https://lutpub.lut.fi/bitstream/handle/10024/104311/Linux-opas.pdf?sequence=2. Luettu 2.9.2024.
+
+Lesonen L. 2023. 
 
 
 
