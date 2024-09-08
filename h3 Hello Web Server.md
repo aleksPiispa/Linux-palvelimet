@@ -37,12 +37,35 @@ Apache2 asennuksen jälkeen komennolla "sudo systemctl start apache2" saimme pal
 ## b) Lokirivit
 Tämän jälkeen tehtävänä oli tutkia terminaalissa lokirivejä, jotka syntyivät, kun latasin palvimeltani sivun. Avasin Mozilla-selaimen ja kirjoitin URL-kenttään localhost/~aleksp. Tulos oli oletettu, koska kyseistä sivua en ollut vielä luonut. Eli tuloksena erroria, not found. Seuraavaksi tarkastin lokirivit terminaalista. Hain lokit komennoilla "sudo tail -1 /var/log/apache2/access.log" sekä "sudo tail /var/log/apache2/error.log"
 
-![Näyttökuva 2024-09-08 224659](https://github.com/user-attachments/assets/0a8b769d-5757-498d-81e5-1ee82349e0a9)
 ![Näyttökuva 2024-09-08 222240](https://github.com/user-attachments/assets/f7ec3da2-fc17-4641-bcef-c444e55a353b)
+
+![Näyttökuva 2024-09-08 224659](https://github.com/user-attachments/assets/0a8b769d-5757-498d-81e5-1ee82349e0a9)
 
 ![Näyttökuva 2024-09-08 223729](https://github.com/user-attachments/assets/38ca3972-5f20-489f-9c27-b8b8ea9883bc)
 
-Access logissa näkyvä GET- hae sivua palvelimelta /~aleksp. 
+Access logissa näkyvä GET- hae sivua palvelimelta. "200" eli tilakoodi, joka kertoo, että haku onnistui.
+Tilakoodin jälkeinen 3380 tarkoittaa pyynön kokoa tavuina. 404 on virhekoodi. Mozilla on selain, jolla haku tehtiin ja Linux x86_64 taas viittaa koneeseen (tapauksessani tähän virtuaalikoneeseen).
+
+## c) Etusivu uusiksi
+
+Alkuun, poistin Apache2 oletussivun käytöstä komennolla "sudo a2dissite 000-default.conf".
+Tämän jälkeen syötin sudo-oikeuksillani salasanan. Oletussivu oli nyt poistettu käytöstä. Jotta konfiguraatio voisi astua voimaan, minun tuli syöttää komento s"udo systemctl reload apache2".
+![Näyttökuva 2024-09-08 225847](https://github.com/user-attachments/assets/aa88eba8-0799-4d74-bd18-b3c33c942a9b)
+
+Seuraavaksi loin uuden Name Based virtuaalipalvelimen. Komennolla "sudoedit /etc/apache2/sites-available/hattuexample.com.conf". Tämä vaati jälleen salasanaani.
+Seuraavaksi komentorivin sijaan minulle aukesi GNU nano 7.2. tekstieditori. 
+Tero Karvisen https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/ ohjeita seuraten, syötin seuraavaanlaisen "koodin".
+
+![Näyttökuva 2024-09-08 233100](https://github.com/user-attachments/assets/35e24888-2a6b-44bc-98bc-e360c25309a4)
+Tallensin Ctrl+S ja poistuin Ctrl+X. Toivoin parasta, että tein oikein.
+
+Tämän jälkeen aktivoin uuden http://localhost oletussivun.
+Syötin komennon "sudo a2ensite hattu.example.com.conf" ja "sudo systemctl reload apache2". 
+
+![Näyttökuva 2024-09-08 233307](https://github.com/user-attachments/assets/0f35573f-5536-43dc-84a1-2a1a58abad85)
+
+
+
 
 
 
