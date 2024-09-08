@@ -49,7 +49,7 @@ Tilakoodin jälkeinen 3380 tarkoittaa pyynön kokoa tavuina. 404 on virhekoodi. 
 ## c) Etusivu uusiksi
 
 Alkuun, poistin Apache2 oletussivun käytöstä komennolla "sudo a2dissite 000-default.conf".
-Tämän jälkeen syötin sudo-oikeuksillani salasanan. Oletussivu oli nyt poistettu käytöstä. Jotta konfiguraatio voisi astua voimaan, minun tuli syöttää komento s"udo systemctl reload apache2".
+Tämän jälkeen syötin sudo-oikeuksillani salasanan. Oletussivu oli nyt poistettu käytöstä. Jotta konfiguraatio voisi astua voimaan, minun tuli syöttää komento "sudo systemctl reload apache2".
 ![Näyttökuva 2024-09-08 225847](https://github.com/user-attachments/assets/aa88eba8-0799-4d74-bd18-b3c33c942a9b)
 
 Seuraavaksi loin uuden Name Based virtuaalipalvelimen. Komennolla "sudoedit /etc/apache2/sites-available/hattuexample.com.conf". Tämä vaati jälleen salasanaani.
