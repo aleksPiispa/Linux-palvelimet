@@ -35,7 +35,7 @@ Apache2 asennuksen jälkeen komennolla "sudo systemctl start apache2" saimme pal
 ![Näyttökuva 2024-09-08 221042](https://github.com/user-attachments/assets/0328083f-9347-41a4-9957-97366a99051f)
 
 ## b) Lokirivit
-Tämän jälkeen tehtävänä oli tutkia terminaalissa lokirivejä, jotka syntyivät, kun latasin palvimeltani sivun. Avasin Mozilla-selaimen ja kirjoitin URL-kenttään localhost/~aleksp. Tulos oli oletettu, koska kyseistä sivua en ollut vielä luonut. Eli tuloksena erroria, not found. Seuraavaksi tarkastin lokirivit terminaalista. Hain lokit komennoilla "sudo tail -1 /var/log/apache2/access.log" sekä "sudo tail /var/log/apache2/error.log"
+Tämän jälkeen tehtävänä oli tutkia terminaalissa lokirivejä, jotka syntyivät, kun latasin palvelimeltani sivun. Avasin Mozilla-selaimen ja kirjoitin URL-kenttään localhost/~aleksp. Tulos oli oletettu, koska kyseistä sivua en ollut vielä luonut. Eli tuloksena erroria, not found. Seuraavaksi tarkastin lokirivit terminaalista. Hain lokit komennoilla "sudo tail -1 /var/log/apache2/access.log" sekä "sudo tail /var/log/apache2/error.log"
 
 ![Näyttökuva 2024-09-08 222240](https://github.com/user-attachments/assets/f7ec3da2-fc17-4641-bcef-c444e55a353b)
 
