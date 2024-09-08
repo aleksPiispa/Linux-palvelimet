@@ -30,13 +30,19 @@ Tämän jälkeen asensin Apache2-weppipalvelime sudo-oikeuksin "sudo apt-get ins
 ![Näyttökuva 2024-09-04 195718](https://github.com/user-attachments/assets/3cf6dbb3-c2b4-4790-ba60-1d5d8b373f84)
 
 Tämän jälkeen tein muutoksia terminaalissa, jotta pääsimme localhost 404 error näkymästä apache2-oletussivulle.
-Apache2 asennuksen jälkeen komennolla "sudo systemctl start apache2" saimme palvelimen käynnistettyä. Minulta kesti hetki muistella, mitä tarkalleenottaen teimmekään. Joten yritin etsiä lokitiedoista merkintää tästä, tajuamatta oikeastaan mitään. Sitten mieleeni juolahti, että käynnistimme Apachen terminaalissa. Eli samalla tavoin palvelimen saa myös suljettua komennolla "sudo systemctl stop apache2". Kokeilin tuota, ja palvelin lakkasi toimimasta. Sitten uudestaan käynnistys, ja voíla!
+Apache2 asennuksen jälkeen komennolla "sudo systemctl start apache2" saimme palvelimen käynnistettyä. Minulta kesti hetki muistella, mitä tarkalleenottaen teimmekään aiemmin tällä viikolla. Joten yritin etsiä lokitiedoista merkintää tästä, tajuamatta oikeastaan mitään. Sitten mieleeni juolahti, että käynnistimme Apachen terminaalissa. Eli samalla tavoin palvelimen saa myös suljettua komennolla "sudo systemctl stop apache2". Kokeilin tuota, ja palvelin lakkasi toimimasta. Sitten uudestaan käynnistys, ja voíla!
 
 ![Näyttökuva 2024-09-08 221042](https://github.com/user-attachments/assets/0328083f-9347-41a4-9957-97366a99051f)
 
 ## b) Lokirivit
-Tässä tehtävässä
+Tämän jälkeen tehtävänä oli tutkia terminaalissa lokirivejä, jotka syntyivät, kun latasin palvimeltani sivun. Avasin Mozilla-selaimen ja kirjoitin URL-kenttään localhost/~aleksp. Tulos oli oletettu, koska kyseistä sivua en ollut vielä luonut. Eli tuloksena erroria, not found. Seuraavaksi tarkastin lokirivit terminaalista. Hain lokit komennoilla "sudo tail -1 /var/log/apache2/access.log" sekä "sudo tail /var/log/apache2/error.log"
 
+![Näyttökuva 2024-09-08 224659](https://github.com/user-attachments/assets/0a8b769d-5757-498d-81e5-1ee82349e0a9)
+![Näyttökuva 2024-09-08 222240](https://github.com/user-attachments/assets/f7ec3da2-fc17-4641-bcef-c444e55a353b)
+
+![Näyttökuva 2024-09-08 223729](https://github.com/user-attachments/assets/38ca3972-5f20-489f-9c27-b8b8ea9883bc)
+
+Access logissa näkyvä GET- hae sivua palvelimelta /~aleksp. 
 
 
 
