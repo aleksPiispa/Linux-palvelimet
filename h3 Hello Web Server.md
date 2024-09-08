@@ -64,6 +64,41 @@ Syötin komennon "sudo a2ensite hattu.example.com.conf" ja "sudo systemctl reloa
 
 ![Näyttökuva 2024-09-08 233307](https://github.com/user-attachments/assets/0f35573f-5536-43dc-84a1-2a1a58abad85)
 
+Komennolla echo pääsin tekemään suoraan komentorivillä html-koodia, joka tulee etusivulle.
+
+![Näyttökuva 2024-09-09 000221](https://github.com/user-attachments/assets/5e766fe3-dce2-49d9-aea3-3f8c35d86cee)
+
+Testasin, onnistuiko ja syötin komennon curl localhost. Näyttäisi toimivan.
+
+![Näyttökuva 2024-09-09 000744](https://github.com/user-attachments/assets/73dd2148-6fd0-4b76-ab1d-ae47b42f4f8c)
+
+Kokeilin samaa selaimessa. Mutta nyt törmäsinkin virheeseen. Päädyin edelleen Apache-aloitussivulle.
+
+![Näyttökuva 2024-09-09 000926](https://github.com/user-attachments/assets/38b6df14-4e5b-42b7-af0f-b3c3b0442423)
+
+Kysyin tästä ChatGPT:ltä, ja sain seuraavan vastauksen:
+"Tämä tilanne johtuu todennäköisesti siitä, että Apache palvelee edelleen oletussivustoa, kun selaimessa käytät osoitetta localhost, koska selaimessa ei ole määritetty pyydettävää verkkotunnusta. Koska olet luonut nimipohjaisen virtuaalipalvelimen hattu.example.com, se toimii vain silloin, kun kyseinen nimi (verkkotunnus) on pyynnössä mukana."
+
+Eli siis kaikki oli edelleen kuten pitikin. Seuraavaksi simuloin paikallisesti nimipalvelinta (DNS).
+
+"sudoedit /etc/hosts" pääsin näkemään ja muokkaamaan host-palvelimia. Lisäsin uudelle riville 127.0.0.1 hattu.example.com
+
+![Näyttökuva 2024-09-09 001604](https://github.com/user-attachments/assets/3b86b73a-07b1-4d6b-8a69-e7b2725b62b7)
+
+Kokeilin, ja edelleen curl localhost näyttää oikein, mutta Mozilla ei. Mietin, olisiko minun tullut kirjoittaa hattu.example.com tuon localhostin päälle? 
+Kirjoitin hakukentään hattu.example.com, ja sivut näyttivät toimivan kuten pitää. Ainoastaan Ä-kirjainten kanssa hieman vaikeuksia.
+
+![Näyttökuva 2024-09-09 001914](https://github.com/user-attachments/assets/fe44508a-86bd-4643-be8a-28e2010fdc55)
+
+Tämän tehtyäni, olin notkunut tietokoneella jo pitkään, ja päätin, että suoritan tehtävän viimeiset osiot seuraavana päivänä. Ajoin vielä terminaalissa "sudo apt-get update" ja suljin koneen, sekä VirtualBoxin. Lopetin tehtävät 9.9.2024  klo 0.30.
+
+Palasin tehtävien pariin 
+
+
+
+
+
+
 
 
 
