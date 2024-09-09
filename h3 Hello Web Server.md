@@ -128,6 +128,7 @@ Huomasin seuraavaksi, että sekoitin kirjaimet. Syötin nimittäin ensin curl -l
 
 Curl-I näyttää HTTP-pyynnön. Eli se siis kertoo, että on käytetty HTTP-protokollaa, milloin pyyntö on tehty, mikä on palvelimen vastauskoodi (200) sekä palvelimen lähettämät otsikot. (KeyCDN,2022)
 
+Sain tehtyä tehtävät, ja viimeisteltyä raportin 9.9.2024, klo 22.40. Aikaa minulta kului tehtävien tekoon kaikenkaikkiaan noin 5 tuntia.
 ## m) Vapaavalintainen
 
 Vapaavalintainen tehtävä oli hankkia GitHub Education-paketti. Yritin tehtävää, mutta järjestelmä ei hyväksynyt kuvaa Frank-sovelluksen opiskelijakortistani, eikä myöskään kuvakaappausta Haaga-Helian Peppi-järjestelmän opiskeluoikeudet-tiedoista. Tämä siis tyssäsi siihen...
