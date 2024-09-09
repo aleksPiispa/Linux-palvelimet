@@ -92,13 +92,41 @@ Kirjoitin hakukentään hattu.example.com, ja sivut näyttivät toimivan kuten p
 
 Tämän tehtyäni, olin notkunut tietokoneella jo pitkään, ja päätin, että suoritan tehtävän viimeiset osiot seuraavana päivänä. Ajoin vielä terminaalissa "sudo apt-get update" ja suljin koneen, sekä VirtualBoxin. Lopetin tehtävät 9.9.2024  klo 0.30.
 
-Palasin tehtävien pariin 
+Palasin tehtävien pariin 9.9. klo 21.12. 
 
+## e) Validi HTML5 sivu
 
+Tässä osiossa minun piti luoda validi HTML5 sivu. Validointi testattiin [https://validator.w3.org.](https://validator.w3.org/).
+En lähtenyt muokkaamaan hattu.example.com sivua, koska tehtävänannossa ei erikseen niin käsketty tekemään. Siispä loin uuden sivun, jolle validoinnin tein.
 
+Loin itselleni uuden sivun käyttäen komentoa "sudo a2enmod userdir", syötin salasanani ja komennon "systemctl restart apache2". Sain ponnahdusikkunan, joka vaati autentikointia. Syötin salasanani, jonka jälkeen terminaaliin ilmestyi punainen teksti.
 
+![Näyttökuva 2024-09-09 212413](https://github.com/user-attachments/assets/2e0502bd-2a58-49f5-94a0-ddc34550b857)
+![Näyttökuva 2024-09-09 212759](https://github.com/user-attachments/assets/b39ff5e5-dd63-41f0-9ae3-f411e05dc6c7)
 
+Tein uudelleen samat komennot, ja jälleen sain saman autentikointi-ponnahdusikkunan. Tällä kertaa mitään virheilmoitusta ei kuitenkaan tullut, ja pääsin jatkamaan eteenpäin. Loin kansion komennolla "mkdir public_html". Sinne loin vielä oman index.html-tiedoston.
 
+![Näyttökuva 2024-09-09 213718](https://github.com/user-attachments/assets/3ab7ef37-8183-40d2-b4d5-e87b844386f3)
+![Näyttökuva 2024-09-09 213749](https://github.com/user-attachments/assets/191ee23f-0f9c-48f7-bad3-7b8d524405de)
+![Näyttökuva 2024-09-09 213900](https://github.com/user-attachments/assets/0495ac82-61d0-4f33-beb0-4a98d0233f92)
+
+Validoinnin tein [https://validator.w3.org.](https://validator.w3.org/). Koska kyseinen sivu on paikallinen, piti minun syöttää lähdekoodi validoitavaksi. Eli en syöttänyt sivun URLia. Alkuperäisessä koodissani oli yksi pieni virhe, jonka korjasin. Tämän jälkeen tuli vihreää valoa, eli validointi meni hyväksytysti läpi.
+
+![Näyttökuva 2024-09-09 214150](https://github.com/user-attachments/assets/64c15c45-4427-41a3-830a-b7e6980ea9a2)
+
+## f) Curl -I ja curl
+
+Tehtävänä oli antaa esimerkit komennoista sekä selittää 'curl -I' näyttämistä otsakkeista, mitä ne tarkoittavat.
+Curl-komennolla käyttäjä voi hakea ja näyttää halutun url-osoitteen sisältö HTML-koodina.
+
+![Näyttökuva 2024-09-09 215058](https://github.com/user-attachments/assets/787d9727-d4e4-468e-9fdf-fa46e93967b2)
+Esimerkki curl-komennosta.
+
+Huomasin seuraavaksi, että sekoitin kirjaimet. Syötin nimittäin ensin curl -l, ja sain tulokseksi aivan saman tulosteen, kuin curl-komennolla. Sitten huomasin, että sen pitääkin olla curl -I, eli ei l(pieni L) vaan I(iso i). 
+
+![Näyttökuva 2024-09-09 215623](https://github.com/user-attachments/assets/95736bb4-ce5b-49d0-8149-3454b20042b2)
+
+Curl-I näyttää HTTP-pyynnön. Eli se siis kertoo, että on käytetty HTTP-protokollaa, milloin pyyntö on tehty, mikä on palvelimen vastauskoodi (200) sekä palvelimen lähettämät otsikot. (KeyCDN,2022)
 
 
 
@@ -110,8 +138,13 @@ Palasin tehtävien pariin
 ## Lähteet
 
 The Apache Software Foundation 2023: Apache HTTP Server Version 2.4 Documentation: Name-based Virtual Host Support.
-Luettavissa. https://httpd.apache.org/docs/2.4/vhosts/name-based.html. Luettu 8.9.2024.
+Luettavissa: https://httpd.apache.org/docs/2.4/vhosts/name-based.html. Luettu 8.9.2024.
 
-Karvinen, T. 2018. Luettavissa: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/. Luettu 8.9.2024
+Karvinen, T. 2018. Name Based Virtual Hosts on Apache. Luettavissa: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/. Luettu 8.9.2024
+
+Karvinen, T. 2024. Linux Palvelimet 2024 alkusyksy. Luettavissa: https://terokarvinen.com/linux-palvelimet/#h3-hello-web-server. Luettu 8.9.2024.
+
+KeyCDN, 2022. Popular Curl Examples. Luettavissa: https://www.keycdn.com/support/popular-curl-examples. Luettu 9.9.2024. 
+
 
 
