@@ -147,5 +147,7 @@ Karvinen, T. 2024. Linux Palvelimet 2024 alkusyksy. Luettavissa: https://terokar
 
 KeyCDN, 2022. Popular Curl Examples. Luettavissa: https://www.keycdn.com/support/popular-curl-examples. Luettu 9.9.2024. 
 
+Lesonen, L. 2023. h3 Hello Web Server. Luettavissa: https://github.com/LiisaLesonen/linux-palvelimet/blob/main/h3.md. Luettu 8.9.2024.
+
 
 
