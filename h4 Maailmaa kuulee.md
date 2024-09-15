@@ -73,16 +73,21 @@ Tämän jälkeen tein palomuuriin reiän ssh-yhteyttä varten, komennolla $ sudo
 ![Näyttökuva 2024-09-16 004311](https://github.com/user-attachments/assets/9a669d3c-6dba-4bd6-8c9f-35d6347ff205)
 
 Loin sitten itselleni käyttäjän $ sudo adduser aleks
+
 ![Näyttökuva 2024-09-16 004457](https://github.com/user-attachments/assets/a8c3346e-ed48-4aea-938a-e31a047e9830)
 
 Vasta tämän jälkeen tajusin, että olisin voinut samalla antaa itselleni sudo-oikeudet, joten tein sitten komennon $ sudo adduser aleks sudo.
+
 ![Näyttökuva 2024-09-16 005007](https://github.com/user-attachments/assets/32f345af-4390-4a21-8e76-6e520805a5a1)
 
 Nyt minulla oli sudo-oikeudet. Kirjauduin sisään käyttäjälleni.
+
 ![Näyttökuva 2024-09-16 010128](https://github.com/user-attachments/assets/963933bc-4ccc-4277-b62f-c8e3098a6896)
 
 Kävin sitten lukitsemassa root-käyttäjän, sekä poistamassa mahdollisuuden kirjautua palvelimelle root-käyttäjänä.
+
 ![Näyttökuva 2024-09-16 010531](https://github.com/user-attachments/assets/cae1334e-de83-47bd-b7b4-8d4c521da4ad)
+
 ![Näyttökuva 2024-09-16 010443](https://github.com/user-attachments/assets/51ae4114-5d27-45b5-b103-814460a17633)
 
 
