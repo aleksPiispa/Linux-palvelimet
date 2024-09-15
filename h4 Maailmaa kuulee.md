@@ -95,7 +95,7 @@ Kävin sitten lukitsemassa root-käyttäjän, sekä poistamassa mahdollisuuden k
 
 klo 00.15
 
-Tässä osiossa minun tuli luoda palvelimelleni omat kotisivut. Aloitin tehtävän ensin pävittämällä palvelimeni ja asentamalla Apacche2 weppipalvelimen $sudo apt-get install apache2.
+Tässä osiossa minun tuli luoda palvelimelleni omat kotisivut. Aloitin tehtävän ensin pävittämällä palvelimeni ja asentamalla Apache2 weppipalvelimen $sudo apt-get install apache2.
 
 ![Näyttökuva 2024-09-16 010649](https://github.com/user-attachments/assets/1b7ee0dc-ae2b-4aa3-8e15-8a5a8d0cd495)
 
@@ -110,6 +110,7 @@ Sitten menin Mozilla-selaimeen ja syötin URL-kenttään palvelimeni IP-osoittee
 Vaihdoin kotisivun viime tunnilla opitusta sudo tee-komennosta.
 
 ![Näyttökuva 2024-09-16 011356](https://github.com/user-attachments/assets/7a6b6770-5da9-4035-b517-8b7c27e96b40)
+
 ![Näyttökuva 2024-09-16 011410](https://github.com/user-attachments/assets/b14d9aaa-9028-4a11-a88e-2ac5e8d932fc)
 
 ## f) Ohjelmien päivitys
