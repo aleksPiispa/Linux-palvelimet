@@ -50,7 +50,8 @@ Tässä vaiheessa olin jo valmis luovuttamaan, väsynyt ja ahdistunut.
 Luin kuitenkin uudestaan Tero Karvisen First steps-sivua, jonka hän mainitsi edellisellä oppitunnilla. Siellä huomasin linkin Linoden sivuille.
 
 Siirryin Linoden sivuille ja loin tunnukset. Palvelimen luominen oli nopeaa ja selkeää. Siellä oli myös tarjouksena 100$ ilmaista creditiä. 
-Sain luotua palvelimen!
+Sain luotua palvelimen! Palvelimelleni valitsin edullisimman version, jonka löysin. Siinä on 1GB RAM-muistia, kovalevytilaa 25GB sekä 1 CPU-ydin.
+Muokattu 16.9.2024.
 
 ![Näyttökuva 2024-09-16 003822](https://github.com/user-attachments/assets/dc391092-07f9-41f8-9e28-eab494bb13b5)
 
