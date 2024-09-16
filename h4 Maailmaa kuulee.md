@@ -19,7 +19,7 @@ Tero Karvinen mainitsi viime oppitunnilla, sekä myös kotisivuillaan tärkeitä
 (Karvinen, 2017)
 
 ## a) Virtuaalisen palvelimen vuokraus
-Aloitin tehtävän tekemisen klo 21.04
+Aloitin tehtävän tekemisen 15.9.2024 klo 21.04
 
 Ensimmäisenä tehtävänä oli vuokrata palvelin, jolla tämän viikon tehtävä tuli tehdä. Tämä osoittautuikin itselleni kaikkein haasteellisimmaksi.
 Olin aiemmin viikolla saanut hyväksyttyä hakemukseni GitHub Educationiin, ja ajattelin hyödyntää sitä, sillä sen avulla pääsisin ilmaiseksi vuokraamaan palvelimen Digital Oceanista.
@@ -93,7 +93,7 @@ Kävin sitten lukitsemassa root-käyttäjän, sekä poistamassa mahdollisuuden k
 
 ## e) Kotisivut palvelimelle
 
-klo 00.15
+16.9.2024 klo 00.15
 
 Tässä osiossa minun tuli luoda palvelimelleni omat kotisivut. Aloitin tehtävän ensin pävittämällä palvelimeni ja asentamalla Apache2 weppipalvelimen $sudo apt-get install apache2.
 
