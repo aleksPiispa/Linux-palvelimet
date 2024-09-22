@@ -51,7 +51,7 @@ ChatGPT antoi neuvon, että **sudo chown aleks:aleks /home/aleks/publicsites** s
 
 ![Näyttökuva 2024-09-22 204708](https://github.com/user-attachments/assets/9242c15a-da41-40e4-986a-4d8c4e516ee3)
 
-Tämän jälkeen onnistuin luomaan publicsites alikansiot piispa.me, a.piispa.me sekä info.piispa.me ja kirjoittaa niihin HTML-koodia micro-editorilla. (Korjasin koodit sen jälkeen, kun olin varmistanut sivujen toimivuuden, eli n. klo 23 aikoihin)
+Tämän jälkeen onnistuin luomaan publicsites alikansiot piispa.me, a.piispa.me sekä info.piispa.me ja kirjoittaa niihin HTML-koodia micro-editorilla. (Korjasin koodit sen jälkeen, kun olin varmistanut sivujen toimivuuden, eli n. klo 22.30 aikoihin)
 
 ![Näyttökuva 2024-09-22 232354](https://github.com/user-attachments/assets/2305a61b-b355-44f9-91db-f6ea5701e5f1)
 
