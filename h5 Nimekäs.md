@@ -46,7 +46,8 @@ Seurasin Karvisen ohjeita tarkasti, mutta tämän komennon annettuani törmäsin
 
 ![Näyttökuva 2024-09-22 202125](https://github.com/user-attachments/assets/a33ec333-3088-4b6a-b48e-8aaf55e3d095)
 
-Yritin luoda sivua normaalina käyttäjänä ilman pääkäyttäjän oikeuksia. Kokeilin curlia ja tämä tuli vastaukseksi.
+Yritin luoda sivua normaalina käyttäjänä ilman pääkäyttäjän oikeuksia. Kokeilin curlia ja tämä tuli vastaukseksi. Näytti siltä, että ainoastaan root-käyttäjällä olisi oikeudet tiedostopolkuun. 
+ChatGPT antoi neuvon, että **sudo chown aleks:aleks /home/aleks/publicsites** saisin muutettua kansion oikeudet pois root-käyttäjältä.
 
 ![Näyttökuva 2024-09-22 204708](https://github.com/user-attachments/assets/9242c15a-da41-40e4-986a-4d8c4e516ee3)
 
@@ -64,11 +65,12 @@ Olin myös tarkistanut koodin w3 validatorilla, että se on validia HTML-koodia.
 
 ![Näyttökuva 2024-09-22 232547](https://github.com/user-attachments/assets/0b00a956-ae38-43af-91f6-21ab5c6f8478)
 
-Kysyin virheilmoitukseen liittyen apua ChatGPT:ltä, ja se mainitsi virheestä, että käyttäjällä ei ole oikeuksia, eikä myöskään Apachella nähdä kohdekansioihin.
+Kysyin virheilmoitukseen liittyen apua ChatGPT:ltä, ja se mainitsi virheestä, että käyttäjällä ei ole oikeuksia, eikä myöskään Apachella nähdä kohdekansioihin. Sen takia minulle tuli virheilmoitus HTTP/1.1 403 Forbidden. Pyörittelin tätä pitkään ja ihmettelin, ja aloin jo menettää uskoni.
 ChatGPT käski minun antaa komennon **sudo chmod 755 /home/aleks** jolloin muilla kun pääkäyttäjällä, on oikeudet lukea ja suorittaa.
 
-Sain kuin sainkin korja
+Sain kuin sainkin korjattua ongelman, ja tarkistin **curl -I http://piispa.me** ja sain tulokseksi seuraavan, 200, OK! Eli nyt pitäisi toimia. (kellonaika oli oikeasti 21.48, en ole ehtinyt/muuttanut koneen kelloa).
 
+![Näyttökuva 2024-09-22 215136](https://github.com/user-attachments/assets/796da4ea-7635-4aca-a89f-7ce6bdb99f3f)
 
 
 
