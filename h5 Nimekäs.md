@@ -51,7 +51,7 @@ ChatGPT antoi neuvon, että **sudo chown aleks:aleks /home/aleks/publicsites** s
 
 ![Näyttökuva 2024-09-22 204708](https://github.com/user-attachments/assets/9242c15a-da41-40e4-986a-4d8c4e516ee3)
 
-Olin tätä ennen luonut publicsites alikansiot piispa.me, a.piispa.me sekä info.piispa.me ja kirjoittanut niihin HTML-koodia micro-editorilla.
+Tämän jälkeen onnistuin luomaan publicsites alikansiot piispa.me, a.piispa.me sekä info.piispa.me ja kirjoittaa niihin HTML-koodia micro-editorilla. (Korjasin koodit sen jälkeen, kun olin varmistanut sivujen toimivuuden, eli n. klo 23 aikoihin)
 
 ![Näyttökuva 2024-09-22 232354](https://github.com/user-attachments/assets/2305a61b-b355-44f9-91db-f6ea5701e5f1)
 
@@ -65,17 +65,30 @@ Olin myös tarkistanut koodin w3 validatorilla, että se on validia HTML-koodia.
 
 ![Näyttökuva 2024-09-22 232547](https://github.com/user-attachments/assets/0b00a956-ae38-43af-91f6-21ab5c6f8478)
 
-Kysyin virheilmoitukseen liittyen apua ChatGPT:ltä, ja se mainitsi virheestä, että käyttäjällä ei ole oikeuksia, eikä myöskään Apachella nähdä kohdekansioihin. Sen takia minulle tuli virheilmoitus HTTP/1.1 403 Forbidden. Pyörittelin tätä pitkään ja ihmettelin, ja aloin jo menettää uskoni.
+Kysyin virheilmoitukseen liittyen apua ChatGPT:ltä, ja se mainitsi virheestä, että käyttäjällä ei ole oikeuksia, eikä myöskään Apachella nähdä kohdekansioihin. Sen takia minulle tuli virheilmoitus HTTP/1.1 403 Forbidden. Pyörittelin tätä pitkään, ihmettelin ja aloin jo menettää uskoni.
 ChatGPT käski minun antaa komennon **sudo chmod 755 /home/aleks** jolloin muilla kun pääkäyttäjällä, on oikeudet lukea ja suorittaa.
 
 Sain kuin sainkin korjattua ongelman, ja tarkistin **curl -I http://piispa.me** ja sain tulokseksi seuraavan, 200, OK! Eli nyt pitäisi toimia. (kellonaika oli oikeasti 21.48, en ole ehtinyt/muuttanut koneen kelloa).
 
 ![Näyttökuva 2024-09-22 215136](https://github.com/user-attachments/assets/796da4ea-7635-4aca-a89f-7ce6bdb99f3f)
 
+Tämän jälkeen annoin vielä komennot **sudo a2ensite a.piispa.me.conf** jolle olin tehnyt jo aiemmin VirtualHostin.
 
+![Näyttökuva 2024-09-22 220721](https://github.com/user-attachments/assets/662687ff-3191-4040-9393-7aed681306a4)
 
+![Näyttökuva 2024-09-22 220819](https://github.com/user-attachments/assets/4888424a-97f0-4b61-ac1b-81ec414e4964)
 
+Saman tein myös info.piispa.me -alidomainille.
 
+![Näyttökuva 2024-09-22 221222](https://github.com/user-attachments/assets/5f0703b1-115f-4f6a-9e80-9e2930b5f0b6)
+
+Kävin tarkistamassa sivujen toimivuuden ensin host-koneeltani (Windows-käyttöjärjestelmä, Brave-selain) ja sen jälkeen VirtualBoxin Linuxilta. Molemmilla sivut toimivat!!
+
+![Näyttökuva 2024-09-22 221606](https://github.com/user-attachments/assets/d4b624a9-d87c-4e4f-b133-5d050610170d)
+
+![Näyttökuva 2024-09-22 221618](https://github.com/user-attachments/assets/f38db03d-7192-4a2b-9029-3636d21a8ec9)
+
+![Näyttökuva 2024-09-22 221627](https://github.com/user-attachments/assets/ca437a40-85fc-47ac-b2b2-bcbf1baee115)
 
 
 
