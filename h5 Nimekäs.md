@@ -90,7 +90,13 @@ Kävin tarkistamassa sivujen toimivuuden ensin host-koneeltani (Windows-käyttö
 
 ![Näyttökuva 2024-09-22 221627](https://github.com/user-attachments/assets/ca437a40-85fc-47ac-b2b2-bcbf1baee115)
 
-Päätin laittaa tältä erää pillit pussiin ja painua pehkuihin. Suljin ssh-yhteyden palvelimeeni klo 23. Jatkoin tehtävien tekoa ja seuraavan osion eli SSH-avaimen luomista 23.9.2024 klo --
+Päätin laittaa tältä erää pillit pussiin ja painua pehkuihin. Suljin ssh-yhteyden palvelimeeni klo 23. Jatkoin tehtävien tekoa ja seuraavan osion eli SSH-avaimen luomista 23.9.2024 klo 21.30
+
+## c) Pubkey
+
+*Automatisoi kirjautuminen julkisella SSH-avaimella.*
+
+Tässä osiossa minun tuli luoda SSH avainpari, jonka avulla voin jatkossa kirjautua VirtualBoxin Linuxilla pilvessä sijaitsevaan palvelimeeni ilman, että minun tarvitsee jatkossa syöttää salasanaa. Hain tietoa SSH-avaimista mm. https://www.ssh.com/academy/ssh/keygen. 
 
 
 
