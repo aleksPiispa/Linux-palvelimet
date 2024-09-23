@@ -127,6 +127,102 @@ Tutkittavat nimet:*
 
 *- Jonkin suuren ja kaikkien tunteman palvelun tiedot.*
 
+Aluksi päivitin ohjelmiston **sudo apt-get update**, jonka jälkeen asensin tldr-työkalun. Sen avulla saan tiivistetyn ja helposti ymmärrettävän version manuaalista (man-komento).
+
+![Näyttökuva 2024-09-23 222724](https://github.com/user-attachments/assets/c6210b76-89b0-420b-9ced-e6db7a7c5a2c)
+
+Host-komento käyttäen tldr-työkalua:
+
+![Näyttökuva 2024-09-23 222818](https://github.com/user-attachments/assets/55e26ef0-50b2-4bd7-8bf8-eca2f1b686cf)
+
+Voin siis hakea komennolla host domainia, ip-osoitteita yms.
+
+Dig-komennon tulos käyttäen tldr-työkalua:
+
+![Näyttökuva 2024-09-23 223337](https://github.com/user-attachments/assets/f3a8cea2-5327-4db0-a3bb-6bcc0fe785ef)
+
+Kysyin ChatGPT:ltä vielä varmistukseksi, mitä eri dig-komennoilla voin tehdä ja sain seuraavan vastauksen:
+
+*Tulokset tarjoavat erilaisia tapoja kysyä DNS-tietoja, sekä peruskäytön että edistyneemmät vaihtoehdot, kuten tietyntyyppisten tietueiden haku, palautteen saaminen eri DNS-palvelimilta, ja DNS-yhteyksien suojaaminen TLS
+avulla. Voit käyttää näitä komentoja selvittääksesi verkkotunnusten ja IP-osoitteiden välisiä suhteita tai ratkaistaksesi DNS-ongelmia.*
+
+## piispa.me haku host-komennolla (oma domain)
+
+![Näyttökuva 2024-09-23 224154](https://github.com/user-attachments/assets/fd2eb31a-3e5b-4658-b9e7-964778c8ac15)
+
+Ainoa, mitä tuloksesta ymmärsin, oli domainin julkinen ip-osoite.
+
+Oman domainin haku dig-komennolla. 
+
+![Näyttökuva 2024-09-23 224510](https://github.com/user-attachments/assets/4f00560d-4870-40a8-a83f-01bff6eac66a)
+
+Ymmärsin, että minun tulee ensin asentaa paketti, joka sisältää dig-työkalun. Eli tein siis sen.
+
+![Näyttökuva 2024-09-23 224658](https://github.com/user-attachments/assets/844a65c1-3072-4e16-9454-e01e5d5ccd8f)
+
+Uusi yritys tuotti paremman tuloksen.
+
+![Näyttökuva 2024-09-23 224738](https://github.com/user-attachments/assets/7b6ee46e-88ba-40d2-bbdd-055321eafc08)
+
+Kysyin saamastani vastauksesta jälleen apua ChatGPT:ltä.
+- Näyttää käytössä olevan dig-työkalun version, ja mitä sillä hain
+- global options näyttää, että käytössä on globaaleja asetuksia
+- **Got answer** - haulle on vastaus
+- **QUERY** ja **NOERROR** viittaavat kyselyyn, ja siihen, että se ei tuottanut virheitä, sekä niiden perässä kyselyn tunnus.
+- flags: qr rd ra kertovat seuraavaa: **qr** eli vastaus kyselyyn, **rd** eli rekursiivinen lippu, eli palvelin voi kysyä myös toisia palvelimia, sekä **ra** tarkoittaa, että rekursiivinen kysely on mahdollinen.
+- Question section, näyttää mitä kysyttiin, eli A-recordia domainille piispa.me
+- Answer section näyttää palvelimen antaman vastauksen. Domainin IP-osoite, ja kuinka kauan se on voimassa (300 sekuntia)
+- Query time kertoo  kyselyn keston
+- Server-kohta kertoo, mille palvelimelle kysely suoritettiin, ja missä portissa (#) sekä mitä protokollaa käytettiin
+- Kyseyn aikaleima
+- Vastauksen koko, 54 tavua
+
+## Pienen yrityksen weppisivut
+
+Tutkin yrityksen www.hierojahelsinki.fi sivuja, sillä tehtävää tehdessä minua särki päähän ja kaipasin hierontaa...
+
+![Näyttökuva 2024-09-23 231218](https://github.com/user-attachments/assets/307b6dd3-3394-4a04-83df-779c3548408c)
+
+Yrityksellä näyttäisi olevan useampi IP-osoite. Oma veikkaukseni on, että tämä on siksi, että jos yksi palvelin kaatuu, eivät sivut kaadu. (Load Balancing).
+
+![Näyttökuva 2024-09-23 231444](https://github.com/user-attachments/assets/a07f7af0-ec52-4155-bacf-25bd2d08f1a2)
+
+## Suuren tai kaikkien tuntema palvelu
+
+Ensimmäisenä mieleeni tuli jokaisen suomalaisen ylpeyden aihe (joskin ei enää), Nokia.
+
+![Näyttökuva 2024-09-23 231737](https://github.com/user-attachments/assets/3e91b214-451e-4e27-b32b-d1af381f7170)
+
+![Näyttökuva 2024-09-23 231828](https://github.com/user-attachments/assets/08fb4dc4-fe1c-45eb-a458-39f1e6d72174)
+
+Olisin toivonut hieman enemmän tutkittavaa näin suuren yrityksen tiedoista, mutta päätin tyytyä tähän. Avasin jo aiemmin, mitä dig-työkalun eri kohdat kertovat, joten en lähde niitä tässä enää avaamaan. Sain tehtävät valmiiksi 23.9.2024 klo 23.32, eli viimeisiin osioihin käytin aikaa 2 tuntia, kokonaisaika tämän viikon tehtäviin siis 6,5 tuntia, plus muu mietiskely ja pohdinta, eli noin + 7 tuntia kaikenkaikkiaan.
+
+
+## Lähteet
+
+Karvinen T. 2024. Linux Palvelimet 2024 alkusyksy. Luettavissa: https://terokarvinen.com/linux-palvelimet/. Luettu 22.9.2024
+
+Karvinen T. 2018. Name Based Virtual Hosts on Apache. Luettavissa: https://terokarvinen.com/2018/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/?fromSearch=name%20based. Luettu 22.9.2024
+
+Namecheap. 2024. Luettavissa: https://www.namecheap.com/. Luettu 22.9.2024.
+
+SSH 2024. How to use ssh-keygen to generate a new ssh-key? Luettavissa: https://www.ssh.com/academy/ssh/keygen. Luettu 23.9.2024
+ 
+Wikipedia. 2024. Public-key cryptography. Luettavissa: https://en.wikipedia.org/wiki/Public-key_cryptography. Luettu 23.9.2024
+
+Wikipedia. 2024. Secure Shell. Luettavissa: https://en.wikipedia.org/wiki/Secure_Shell. Luettu 23.9.2024
+
+Wikipedia. 2024. ssh-keygen, Luettavissa: https://en.wikipedia.org/wiki/Ssh-keygen. Luettu 23.9.2024
+
+W3C, 2024. Markup Validation Service. Saatavilla https://validator.w3.org/. 
+
+ChatGPT, OpenAI. 2024. Saatavilla https://chat.openai.com. 
+
+
+
+
+
+
 
 
 
