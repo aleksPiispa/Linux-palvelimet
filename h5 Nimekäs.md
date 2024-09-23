@@ -96,7 +96,36 @@ Päätin laittaa tältä erää pillit pussiin ja painua pehkuihin. Suljin ssh-y
 
 *Automatisoi kirjautuminen julkisella SSH-avaimella.*
 
-Tässä osiossa minun tuli luoda SSH avainpari, jonka avulla voin jatkossa kirjautua VirtualBoxin Linuxilla pilvessä sijaitsevaan palvelimeeni ilman, että minun tarvitsee jatkossa syöttää salasanaa. Hain tietoa SSH-avaimista mm. https://www.ssh.com/academy/ssh/keygen. 
+Tässä osiossa minun tuli luoda SSH avainpari, jonka avulla voin jatkossa kirjautua VirtualBoxin Linuxilla pilvessä sijaitsevaan palvelimeeni ilman, että minun tarvitsee jatkossa syöttää salasanaa. Hain tietoa SSH-avaimista mm. seuraavilta sivuilta: https://www.ssh.com/academy/ssh/keygen, https://en.wikipedia.org/wiki/Public-key_cryptography, https://en.wikipedia.org/wiki/Ssh-keygen, https://en.wikipedia.org/wiki/Secure_Shell.
+
+![Näyttökuva 2024-09-23 215139](https://github.com/user-attachments/assets/6d727a65-f6da-4feb-ad70-b7b57ffcd4cc)
+
+Alkuun tarkistin **whoami** komennolla, kuka olen. Sitten syötin komennon **ssh-keygen -t rsa -b 4096**
+-t määritää salauksen tyypin ja -b bittien koon, eli 4096 oli ainakin lukemani perusteella turvallinen ja riittävän pitkä.
+Enterillä SSH-avain luotiin sille ennalta määriteltyyn sijaintiin, en antanut SSH-avaimelle erillistä "passphrasea" eli enterillä tästäkin eteenpäin.
+Yksityinen (Private) avain sijaitsee nyt täällä: ~/.ssh/id_rsa
+Julkinen avain, jonka jaoin pilvessä olevalle palvelimelle, sijaitsee täällä: ~/.ssh/id_rsa.pub
+
+Kopioin avaimen komennolla **ssh-copy-id aleks@ip-osoite**, jonka jälkeen minulta vaadittiin vielä palvelinkoneen salasanaa.
+
+![Näyttökuva 2024-09-23 215606](https://github.com/user-attachments/assets/40e36d81-bacb-4980-a2eb-96f086677790)
+
+Kirjauduin sisään varmistaakseni, että SSH-avaimeni toimii, 
+
+![Näyttökuva 2024-09-23 215707](https://github.com/user-attachments/assets/e1598c44-f13d-4e4d-b851-39c7f5c2287f)
+
+Ja näytti toimivan, sillä minulta ei nyt kysytty salasanaa! Palvelinkoneelleni kopioitu SSH-avain sijaitsee ~/.ssh/authorized_keys.
+
+##d) DNS-tiedot "host"- ja "dig"-komennoilla
+
+*Tutki jonkin nimen DNS-tietoja 'host' ja 'dig' -komennoilla. Käytä kumpaakin komentoa kaikkiin nimiin ja vertaa tuloksia. Katso man-sivulta, miten komennot toimivat - esimerkiksi miten 'dig' näyttää kaikki kentät. Analysoi tulokset. Etsi tarvittaessa uusia lähteitä haastaviin kohtiin. Sähköpostin todentamiseen liittyvät SPF ja DMARC -tietojen yksityiskohdat on jätetty vapaaehtoiseksi lisätehtäväksi. Tutkittavat nimet:
+Oma domain-nimesi. Vertaa tuloksia nimen vuokraajan (namecheap.com, name.com...) weppiliittymässä näkyviin asetuksiin.
+Jonkin pikkuyrityksen, kerhon tai yksittäisen henkilön weppisivut. (Ei kuitenkaan kurssikaverin tällä viikolla vuokrattua nimeä).
+Jonkin suuren ja kaikkien tunteman palvelun tiedot.*
+
+
+
+
 
 
 
