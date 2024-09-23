@@ -204,6 +204,8 @@ Karvinen T. 2024. Linux Palvelimet 2024 alkusyksy. Luettavissa: https://terokarv
 
 Karvinen T. 2018. Name Based Virtual Hosts on Apache. Luettavissa: https://terokarvinen.com/2018/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/?fromSearch=name%20based. Luettu 22.9.2024
 
+Karvinen T. 2012. Short HTML5 page. Luettavissa: https://terokarvinen.com/2012/short-html5-page/. Luettu 22.9.2024
+
 Namecheap. 2024. Luettavissa: https://www.namecheap.com/. Luettu 22.9.2024.
 
 SSH 2024. How to use ssh-keygen to generate a new ssh-key? Luettavissa: https://www.ssh.com/academy/ssh/keygen. Luettu 23.9.2024
