@@ -2,7 +2,7 @@ Tämä, ja kaikki tulevat tehtävät pohjautuvat Tero Karvisen Linux palvelimet 
 Teen kurssin tehtäviä Lenovon Ideapad 5 Pro 13ARH7 -kannettavalla. Käyttöjärjestelmänä koneessa on Windows 11 Home, ja koneessa on 16GB RAM-muistia
 sekä suorittimena AMD Ryzen 5 6600HS Creator Edition. 
 Näytönohjain: AMD Radeon 660M Graphics. Storage: M.2 SSD 512Gt, vapaana 343Gt.
-Koneelle on asennettu VirtualBox virtualisointiohjelma, jolla pyöritän Linux Debian-virtuaalikonettan
+Koneelle on asennettu VirtualBox virtualisointiohjelma, joka pyörittää tehtävissä näkyvää Linux Debian-virtuaalikonetta.
 
 # h6 Hello Django
 
