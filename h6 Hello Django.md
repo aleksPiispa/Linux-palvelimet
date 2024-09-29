@@ -6,7 +6,7 @@ Koneelle on asennettu VirtualBox virtualisointiohjelma, joka pyörittää tehtä
 
 # h6 Hello Django
 
-a) Tee yksinkertainen esimerkkiohjelma Djangolla.
+## a) Tee yksinkertainen esimerkkiohjelma Djangolla.
 
 *Voit käyttää testipalvelinta, kunhan se ei näy Internetiin.
 Riittää, kun ohjelmasi näkyy esimerkiksi Django Adminsissa.
