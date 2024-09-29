@@ -92,6 +92,20 @@ Kirjauduin ulos pääkäyttäjänä, ja kirjauduin sisään juuri luomallani kä
 
 ![Näyttökuva 2024-09-29 214615](https://github.com/user-attachments/assets/8b0e14d5-acb4-41d7-91f2-57bb31ca9b69)
 
+Seuraavaksi lähdin luomaan tietokantaa. Sammutin Djangon, ja syötin komennon **./manage.py startapp crm**. Käynnistin Djangon uudestaan, kunnes tajusin, että en voi käyttää komentoriviä tuolloin, joten sammutin sen. Annoin uudestaan komennon **./manage.py startapp crm**, mutta tuli virheilmoitus, että kyseinen kansio on jo olemassa. Eli siis seuraavaan vaiheeseen.
+
+![Näyttökuva 2024-09-29 215818](https://github.com/user-attachments/assets/644e9b09-bd0f-4b12-8fb4-5011398dfe37)
+
+Avasin micro-editorin ja lisäsin crm-sovelluksen muiden joukkoon.
+
+![Näyttökuva 2024-09-29 220117](https://github.com/user-attachments/assets/ce6ad076-b393-4a30-900a-efdabf4cd9dc)
+
+![Näyttökuva 2024-09-29 220048](https://github.com/user-attachments/assets/e06ab7a7-6846-47e0-8300-29e166a47fb1)
+
+Sitten rupesin luomaan komennolla **micro crm/models.py** tietokantaan "Customers"-taulua, ja kenttä sai nimekseen "name". Sitten ajoin uudestaan komennot **./manage.py makemigrations** ja **./manage.py migrate**.
+
+![Näyttökuva 2024-09-29 220818](https://github.com/user-attachments/assets/a06fb452-9924-4276-8d94-d74437306dce)
+
 
 
 
