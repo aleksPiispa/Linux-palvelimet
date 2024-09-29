@@ -102,7 +102,7 @@ Avasin micro-editorin ja lisäsin crm-sovelluksen muiden joukkoon.
 
 ![Näyttökuva 2024-09-29 220048](https://github.com/user-attachments/assets/e06ab7a7-6846-47e0-8300-29e166a47fb1)
 
-Sitten rupesin luomaan komennolla **micro crm/models.py** tietokantaan "Customers"-taulua, ja kenttä sai nimekseen "name". Sitten ajoin uudestaan komennot **./manage.py makemigrations** ja **./manage.py migrate**.
+Sitten rupesin luomaan komennolla **micro crm/models.py** tietokantaan "Customer"-taulua, ja kenttä sai nimekseen "name". Sitten ajoin uudestaan komennot **./manage.py makemigrations** ja **./manage.py migrate**.
 
 ![Näyttökuva 2024-09-29 220818](https://github.com/user-attachments/assets/a06fb452-9924-4276-8d94-d74437306dce)
 
@@ -111,6 +111,19 @@ Sitten rupesin luomaan komennolla **micro crm/models.py** tietokantaan "Customer
 Rekisteröin tietokannan komennolla **micro crm/admin.py**.
 
 ![Näyttökuva 2024-09-29 221109](https://github.com/user-attachments/assets/8903b17f-b222-4aaf-980b-030a99688371)
+
+Käynnistin Djangon komennolla **./manage.py runserver** ja nyt siellä näkyi Customers-kenttä. Lähdin lisäämään sinne kaksi asiakasta. Nimet eivät kuitenkaan tallentuneet, vaan näkyivät muodossa "Customer object(1)" ja "Customer object(2)". Tämä olikin vissiin ihan tarkoituskin.
+
+![Näyttökuva 2024-09-29 221645](https://github.com/user-attachments/assets/8924b198-2dde-4e87-ac99-8b26b7ccaa7d)
+
+Poistuin Djangosta ja palasin komentoriville. 
+Siellä avasin jälleen micro-editorin, jossa lähdin muokkaamaan models-tiedoston tietoja. Eli **micro crm/models.py**.
+Muokkasin customer-luokkaa siten, että nyt se palauttaa arvot, jotka määritettiin käyttäjien nimiksi.
+
+![Näyttökuva 2024-09-29 222611](https://github.com/user-attachments/assets/cb0629f2-8e05-411a-ac0b-6040682aa123)
+
+
+
 
 
 
