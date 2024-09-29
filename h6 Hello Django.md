@@ -26,3 +26,4 @@ Eli komento **sudo apt-get dist-upgrade**. Näytti kuitenkin siltä, että kaikk
 
 ![Näyttökuva 2024-09-29 182017](https://github.com/user-attachments/assets/403f1418-16f6-4c07-8596-102997cbd96b)
 
+Päivitysten jälkeen en ehtinyt sen enempää tekemään, sillä alkoi lapsen iltatoimet, joten tekeminen keskeytyi klo 19 aikoihin. Palasin tehtävän pariin klo 20...
