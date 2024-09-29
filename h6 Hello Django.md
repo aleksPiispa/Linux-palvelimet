@@ -122,7 +122,7 @@ Muokkasin customer-luokkaa siten, että nyt se palauttaa arvot, jotka määritet
 
 ![Näyttökuva 2024-09-29 222611](https://github.com/user-attachments/assets/cb0629f2-8e05-411a-ac0b-6040682aa123)
 
-Lähdin antamaan komentoa ** ./manage.py makemigrations**, mutta sain syntax error-viestiä. Aloin miettimään, että missä vika, sillä seurasin Teron ohjeita tarkasti. Myönnettäköön, että koodaaminen ei ole vahvuuksiani, ja viime kerrasta on aikaa jo noin vuosi, koska ei ole aikaa harrastaa :(. Luin error-logia läpi, ja kävin tarkistamassa äsken muokkaamaani crm/models.py tiedostoa. Vika löytyi, minulta oli jäänyt yksi välilyönti välistä...
+Lähdin antamaan komentoa **./manage.py makemigrations**, mutta sain syntax error-viestiä. Aloin miettimään, että missä vika, sillä seurasin Teron ohjeita tarkasti. Myönnettäköön, että koodaaminen ei ole vahvuuksiani, ja viime kerrasta on aikaa jo noin vuosi, koska ei ole aikaa harrastaa :(. Luin error-logia läpi, ja kävin tarkistamassa äsken muokkaamaani crm/models.py tiedostoa. Vika löytyi onneksi helposti, koska koodia oli jopa huimat 5 riviä, minulta oli jäänyt yksi välilyönti välistä...
 
 ![Näyttökuva 2024-09-29 223540](https://github.com/user-attachments/assets/f5412696-1bcd-42e1-abee-29ea2a9ad8ec)
 
