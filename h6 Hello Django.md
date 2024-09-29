@@ -122,6 +122,19 @@ Muokkasin customer-luokkaa siten, että nyt se palauttaa arvot, jotka määritet
 
 ![Näyttökuva 2024-09-29 222611](https://github.com/user-attachments/assets/cb0629f2-8e05-411a-ac0b-6040682aa123)
 
+Lähdin antamaan komentoa ** ./manage.py makemigrations**, mutta sain syntax error-viestiä. Aloin miettimään, että missä vika, sillä seurasin Teron ohjeita tarkasti. Myönnettäköön, että koodaaminen ei ole vahvuuksiani, ja viime kerrasta on aikaa jo noin vuosi, koska ei ole aikaa harrastaa :(. Luin error-logia läpi, ja kävin tarkistamassa äsken muokkaamaani crm/models.py tiedostoa. Vika löytyi, minulta oli jäänyt yksi välilyönti välistä...
+
+![Näyttökuva 2024-09-29 223540](https://github.com/user-attachments/assets/f5412696-1bcd-42e1-abee-29ea2a9ad8ec)
+
+
+Sitten uudestaan **./manage.py makemigrations** ja **./manage.py migrate**. Django käyntiin **./manage.py runserver** ja nyt nimet tulivat esiin. Hei Pentti, Hei Matti!
+
+![Näyttökuva 2024-09-29 224501](https://github.com/user-attachments/assets/82772fba-0487-43f2-880d-c90f3752e406)
+
+![Näyttökuva 2024-09-29 224306](https://github.com/user-attachments/assets/ba827e36-68c7-466a-aae5-45f8a932c925)
+
+Ensimmäinen osa viikon kotitehtävistä oli nyt valmis. Päätin jatkaa seuraavana päivänä, sillä lapsi tykkää herätä aikaisin, ja minä en. Lopetin siis tältä erää tekemisen 29.9.2024 klo 22.47.
+
 
 
 
