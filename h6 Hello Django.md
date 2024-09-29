@@ -56,10 +56,42 @@ Avasin selaimen, ja URL-kenttään kirjotin localhost-osoitteen, ja porttinumero
 
 Avaruuskiituri lähti liikkeelle, seuraavaksi Tatoiinen kiiturikisaan siis :D
 
-Sitten oli aika luoda pääkäyttäjä. Lisäsin osoitekenttään localhostin perään vielä /admin, josta tulisi avautua kirjautimista varten sivu. Mitään ei kuitenkaan siellä ollut, joten palasin terminaaliin. Palasin terminaaliin CTRL+C, ja keskeytin testin. 
+Sitten oli aika luoda pääkäyttäjä. Lisäsin osoitekenttään localhostin perään vielä /admin, josta tulisi avautua kirjautumista varten sivu. Mitään ei kuitenkaan siellä ollut, joten palasin terminaaliin. Palasin terminaaliin CTRL+C, ja keskeytin testin. 
 
 ![Näyttökuva 2024-09-29 210846](https://github.com/user-attachments/assets/c848f805-e14e-4c5c-9c4e-f10293463071)
 
 ![Näyttökuva 2024-09-29 211039](https://github.com/user-attachments/assets/e2a472bf-3c65-4795-85c7-1c354ec30227)
+
+Päivitin tietokannat:
+
+![Näyttökuva 2024-09-29 211538](https://github.com/user-attachments/assets/8284973a-6c97-4a31-ab86-3353b531ba9e)
+
+Ja aloin luomaan pääkäyttäjää, mutta ensin asensin salasanageneraattorin 
+komennolla **sudo apt-get install pwgen** ja generoin sillä vahvan salasanan **pwgen -s 20 1**. Sitten loin pääkäyttäjän komennolla **./manage.py createsuperuser** ja kokeilin uudestaan mennä /admin-sivulle.
+
+![Näyttökuva 2024-09-29 212856](https://github.com/user-attachments/assets/9780b395-a78f-4ba8-9162-15457b6e3b04)
+
+Tuli sen verran vahva salasana, että sain pari kertaa kirjoitettua sen väärin. Törmäsin kuitenkin selaimessa ongelmaan, sillä sivu ei toiminut.
+
+![Näyttökuva 2024-09-29 213239](https://github.com/user-attachments/assets/dfc6355f-32b7-4c2c-b133-b7c9f8624cf2)
+
+Hetken pähkäilin, miksi ei, missä on vika. Kunnes tajusin, että minun tulee käynnistää homma uusiksi. Eli **./manage.py runserver**
+Tuon jälkeen Shift+F5 ja voíla! Alkoi Lyyti kirjoittaa. Syötin pääkäyttäjän tiedot.
+
+![Näyttökuva 2024-09-29 213511](https://github.com/user-attachments/assets/ce8fc66d-208d-4b8e-a880-aafb5a95a5da)
+
+![Näyttökuva 2024-09-29 213704](https://github.com/user-attachments/assets/3d0d3f3a-4397-443d-95c1-531468a368b4)
+
+Sitten lähdin lisäämään uutta käyttäjää käyttöliittymässä, eli kohdasta +Add klikkasin ja loin uuden käyttäjän. Käyttäjä sai nimekseen *Testinen* ja myönsin hänelle *Staff* sekä *Superuser*-oikeudet.
+
+![Näyttökuva 2024-09-29 214210](https://github.com/user-attachments/assets/6ea7c740-8084-40a4-a4e7-7831778ebfc3)
+
+![Näyttökuva 2024-09-29 214440](https://github.com/user-attachments/assets/ef87a563-cf45-4bde-9257-64359ed91a93)
+
+Kirjauduin ulos pääkäyttäjänä, ja kirjauduin sisään juuri luomallani käyttäjällä.
+
+![Näyttökuva 2024-09-29 214615](https://github.com/user-attachments/assets/8b0e14d5-acb4-41d7-91f2-57bb31ca9b69)
+
+
 
 
