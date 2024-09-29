@@ -106,6 +106,12 @@ Sitten rupesin luomaan komennolla **micro crm/models.py** tietokantaan "Customer
 
 ![Näyttökuva 2024-09-29 220818](https://github.com/user-attachments/assets/a06fb452-9924-4276-8d94-d74437306dce)
 
+![Näyttökuva 2024-09-29 220915](https://github.com/user-attachments/assets/f4720876-0b96-4ee6-8c0e-ed0eac11350f)
+
+Rekisteröin tietokannan komennolla **micro crm/admin.py**.
+
+![Näyttökuva 2024-09-29 221109](https://github.com/user-attachments/assets/8903b17f-b222-4aaf-980b-030a99688371)
+
 
 
 
