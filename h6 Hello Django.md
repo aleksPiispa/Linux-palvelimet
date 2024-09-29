@@ -54,7 +54,7 @@ Avasin selaimen, ja URL-kenttään kirjotin localhost-osoitteen, ja porttinumero
 
 ![Näyttökuva 2024-09-29 210411](https://github.com/user-attachments/assets/5557f4ce-4392-4971-8326-911e205b5c52)
 
-Avaruuskiituri lähti liikkeelle, seuraavaksi Tatoiinen kiiturikisaan siis :D
+Avaruuskiituri lähti liikkeelle, seuraavaksi Tatooinen kiiturikisaan siis :D
 
 Sitten oli aika luoda pääkäyttäjä. Lisäsin osoitekenttään localhostin perään vielä /admin, josta tulisi avautua kirjautumista varten sivu. Mitään ei kuitenkaan siellä ollut, joten palasin terminaaliin. Palasin terminaaliin CTRL+C, ja keskeytin testin. 
 
