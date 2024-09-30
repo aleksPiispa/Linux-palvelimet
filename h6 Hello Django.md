@@ -280,7 +280,7 @@ Kokeilin uudestaa curlia, kuten ohjeissa sanottiin eli **curl -s localhost|grep 
 ![Näyttökuva 2024-09-30 234104](https://github.com/user-attachments/assets/382b45cc-44f3-4f2f-8997-0fea22af4479)
 
 Eli nyt localhost ei toimi, kuten kuuluukin olla, mutta /admin sivulla tulee edes jotain näkyviin.
-Menin takasin settings.py tiedstoon, lisäämään hieman asiaa.
+Menin takasin settings.py tiedostoon, lisäämään hieman asiaa.
 
 ![Näyttökuva 2024-09-30 234637](https://github.com/user-attachments/assets/ab79043c-fa93-4075-9b84-e7d6515df93f)
 
