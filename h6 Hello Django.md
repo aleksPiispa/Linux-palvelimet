@@ -142,6 +142,16 @@ Karvinen 2021: Deploy Django 4 - Production Install
 
 Palasin tehtävän pariin 30.9.2024 klo 20.42, kun illan luento oli päättynyt. 
 Aloitin tehtävän lukemalla läpi Teron dokumentin, kuinka tehdä tuotantotyyppinen Djangon asennus. 
+Ohjeissa mainittiin, että tulee tietää kolme absoluuttista polkua. Tässä vielä suora lainaus Terolta.
+
+*To set up Apache to serve Python programs, including Django, we need to know three absolute paths:*
+
+*Our Django project main dir, the one containing manage.py: "/home/tero/publicwsgi/teroco/" (TDIR variable in config file below)
+Path to wsgi.py: "/home/tero/publicwsgi/teroco/teroco/wsgi.py" (TWSGI)
+Virtualenv site-packages directory: "/home/tero/publicwsgi/env/lib/python3.9/site-packages" (TVENV)
+Whenever paths are needed, use 'ls' and tab to write the paths on the shell, then copy-paste them to config file. Less typos means less need for debugging.*
+
+*WSGI module runs code as the user we specify. It will be the same user we used for testing ('whoami'). Because the code gets input from anonymous web users, it makes sense to create a Django user that does not have sudo privileges, i.e. is not a member of sudo group. This is left as an exercise for the reader. Here, the user is "tero" (TUSER below).*
 
 Ohjeiden alussa käskettiin asentamaan Apache, mutta se oli jo tehty useita viikkoja sitten, joten en lähtenyt sitä asentamaan. Aiemmassa tehtävässä korvattiin Apachen default-sivu Hattu Examplella, joten näytän sen vielä tässä.
 
