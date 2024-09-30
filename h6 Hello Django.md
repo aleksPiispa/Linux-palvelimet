@@ -135,6 +135,29 @@ Sitten uudestaan **./manage.py makemigrations** ja **./manage.py migrate**. Djan
 
 Ensimmäinen osa viikon kotitehtävistä oli nyt valmis. Päätin jatkaa seuraavana päivänä, sillä lapsi tykkää herätä aikaisin, ja minä en. Lopetin siis tältä erää tekemisen 29.9.2024 klo 22.47.
 
+## b) Tee Djangon tuotantotyyppinen asennus
+*Voit halutessasi tehdä asennuksen omalle, paikalliselle virtuaalikoneelle. Sen ei tarvitse näkyä Internetiin.*
+
+Karvinen 2021: Deploy Django 4 - Production Install
+
+Palasin tehtävän pariin 30.9.2024 klo 20.42, kun illan luento oli päättynyt. 
+Aloitin tehtävän lukemalla läpi Teron dokumentin, kuinka tehdä tuotantotyyppinen Djangon asennus. 
+
+Ohjeiden alussa käskettiin asentamaan Apache, mutta se oli jo tehty useita viikkoja sitten, joten en lähtenyt sitä asentamaan. Aiemmassa tehtävässä korvattiin Apachen default-sivu Hattu Examplella, joten näytän sen vielä tässä.
+
+Aloitin päivittämällä paketit **sudo apt-get update** 
+
+![Näyttökuva 2024-09-30 204817](https://github.com/user-attachments/assets/a9b11764-2671-4ac9-9025-3d295a07467d)
+ 
+![Näyttökuva 2024-09-30 205536](https://github.com/user-attachments/assets/38e1fcb0-3b10-4c51-aa03-69505d7964d7)
+
+Apache toimii. Seuraavaksi loin uusia hakemistoja Teron ohjeiden mukaisesti ja lisäsin uuden Virtual Hostin totuttuun tapaan.
+
+![Näyttökuva 2024-09-30 210246](https://github.com/user-attachments/assets/54b3754e-4781-4322-80c6-6055893f5048)
+
+
+
+
 
 
 
