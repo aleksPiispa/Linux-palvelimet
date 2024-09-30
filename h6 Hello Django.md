@@ -151,11 +151,13 @@ Aloitin päivittämällä paketit **sudo apt-get update**
  
 ![Näyttökuva 2024-09-30 205536](https://github.com/user-attachments/assets/38e1fcb0-3b10-4c51-aa03-69505d7964d7)
 
-Apache toimii. Seuraavaksi loin uusia hakemistoja Teron ohjeiden mukaisesti ja lisäsin uuden Virtual Hostin totuttuun tapaan.
+Apache toimii. Seuraavaksi loin uusia hakemistoja Teron ohjeiden mukaisesti. Olin jo luomassa uutta virtual hostia, kunnes totesin, että parempi korvata nano-editori ja poistuin editorista. Sitten määritin micro-editorin pääeditoriksi komennolla **export EDITOR=micro**. Microon pääsi jo tehtävän ensimmäisessä vaiheessa paremmin sisälle, ja on helpompaa, kun on samat näppäinmääritykset käytössä, eikä eri editoreja ja eri näppäinmäärityksiä, siksi siis tein näin. Tämän jälkeen lähdin uudestaan luomaan virtual hostia totuttuun tapaan.
 
 ![Näyttökuva 2024-09-30 210246](https://github.com/user-attachments/assets/54b3754e-4781-4322-80c6-6055893f5048)
 
+![Näyttökuva 2024-09-30 211511](https://github.com/user-attachments/assets/8b71b262-a272-4d5e-8860-f7a715100b8b)
 
+![Näyttökuva 2024-09-30 211428](https://github.com/user-attachments/assets/0f76709a-03b5-41e1-b516-e59bd3e8eb19)
 
 
 
