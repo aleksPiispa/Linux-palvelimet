@@ -159,7 +159,20 @@ Apache toimii. Seuraavaksi loin uusia hakemistoja Teron ohjeiden mukaisesti. Oli
 
 ![Näyttökuva 2024-09-30 211428](https://github.com/user-attachments/assets/0f76709a-03b5-41e1-b516-e59bd3e8eb19)
 
+Sitten päivitettiin Apache. **sudo a2ensite aleksco.conf**, jotta saadaan sivu päälle. **Sudo a2dissite 000-default.conf** oletussivun lopettamiseksi, tästä tuli kuitenkin viesti, että on jo aiemmin disabloitu. Sitten ajoin konfigurointitestin Apachelle, **/sbin/apache2ctl configtest**, mutta sain ohjeista poiketen error-viestin. Luin tämän läpi, ja menin muokkaamaan aiemmin tekemääni aleksco.conf-virtuaalihostia. Siellä oli ylimääräinen sarkain (<). Sitten CTRL+S ja CTRL+Q, ja uusiksi configtest.
 
+![Näyttökuva 2024-09-30 212541](https://github.com/user-attachments/assets/901c6823-0241-4961-bfd4-6c04b442b33f)
+
+Teron ohjeissa luki näin *If it only complains about not know it's public name (AH00558) and says "Syntax OK", the config files are good to go.*
+
+![Näyttökuva 2024-09-30 212709](https://github.com/user-attachments/assets/e07e68dc-1f17-476e-b72f-7d23ba16e7db)
+
+Eli sama koodi AH00558 tuli minullakin, eli GG.
+Seuraavaksi käynnistin Apachen uudelleen **sudo systemctl restart apache2** ja kävin curl-komennolla tarkistamassa, lähtikö static-tiedosto pelittämään. Näyttäisi siltä, että toimii!
+
+![Näyttökuva 2024-09-30 213051](https://github.com/user-attachments/assets/d13a6e0e-8d0f-4fde-a48c-f9c0f87ba537)
+
+Sitten aloitin asentamaan virtuaaliympäristöä. Hieman jäi mietityttämään, että pitääkö ympäristö asentaa uudelleen, kun tehtävän ensimmäisessä osassa se jo asennettiin. Seurasin kuitenkin ohjeita, enkä alkanut sen enempää niitä kyseenalaistamaan.
 
 
 
