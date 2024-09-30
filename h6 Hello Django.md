@@ -174,8 +174,27 @@ Seuraavaksi käynnistin Apachen uudelleen **sudo systemctl restart apache2** ja 
 
 Sitten aloitin asentamaan virtuaaliympäristöä. Hieman jäi mietityttämään, että pitääkö ympäristö asentaa uudelleen, kun tehtävän ensimmäisessä osassa se jo asennettiin. Seurasin kuitenkin ohjeita, enkä alkanut sen enempää niitä kyseenalaistamaan.
 
+![Näyttökuva 2024-09-30 213813](https://github.com/user-attachments/assets/b308214d-f4db-4dbe-bf3d-4e4ce818a432)
 
+Aktivoin virtuaaliympäristön, ja tarkistin, että missä ollaan **which pip** komennolla.
 
+![Näyttökuva 2024-09-30 213950](https://github.com/user-attachments/assets/609cae7a-97f4-4c04-b67b-59c201e65935)
 
+Sitten uudestaan asentamaan Djangoa, ensin loin microlla tekstitiedoston *requirements.txt* ja sinne kirjoitin *django*. Tallensin CTRL+S ja poistuin CTRL+Q. **cat requirements.txt** tarkistin vielä, että tulihan kirjoitettua varmasti oikein.
 
+![Näyttökuva 2024-09-30 214338](https://github.com/user-attachments/assets/2440b868-ae41-4fd0-8fa0-7269fe592b7d)
+
+![Näyttökuva 2024-09-30 214414](https://github.com/user-attachments/assets/a3cdc646-24e1-46c5-bc2b-46e4af5e27bf)
+
+Sitten asensin Djangon. Tällä kertaa ei tullut latauspalkkeja ym. kuten edellisessä osassa, joten saattaa olla, että turhaan nyt asensin uudestaan. Noh, näillä mennään. Tarkistin vielä testillä, mikä versio Djangosta. Ei näyttänyt siltä, että olisi tullut versiopäivitystä yön aikana.
+
+![Näyttökuva 2024-09-30 214705](https://github.com/user-attachments/assets/da45e44c-36f3-4fc6-9852-be15b4d28177)
+
+![Näyttökuva 2024-09-30 214926](https://github.com/user-attachments/assets/04d6db75-d570-401d-9436-bb2549fa4527)
+
+Tämän jälkeen aloitin uuden projektin. Jouduin antamaan sille uuden nimen, sillä olin jo aiemmin tehnyt aleksco-nimisen projektin. Tämä sai siis nimekseen alekspro.
+
+![Näyttökuva 2024-09-30 215204](https://github.com/user-attachments/assets/e14d2ea5-bb80-491c-8796-9e058ae709ff)
+
+Tässä vaiheessa pidin hetken levähdystauon. Olin istunut tietokoneen äärellä tauotta klo 17.40 saakka, ja kello oli nyt 21.54. Menin keittämään kupillisen teetä. Palasin projektin pariin klo 22.00
 
