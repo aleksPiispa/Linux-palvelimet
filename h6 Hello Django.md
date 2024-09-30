@@ -237,6 +237,73 @@ Ja muokkasin sitä näin.
 
 ![Näyttökuva 2024-09-30 230255](https://github.com/user-attachments/assets/14c1d379-c8f8-4b62-9d16-9b738b84f203)
 
-Kokeilin vielä curlia **curl -sI localhost|grep Server** ja vastauksena ohjeiden mukaisesti.
+Kokeilin vielä curlia **curl -sI localhost|grep Server** ja **curl -s localhost|grep title**
+vastauksena ohjeiden mukaisesti.
 
 ![Näyttökuva 2024-09-30 230530](https://github.com/user-attachments/assets/8afde59d-4366-46c6-b791-f10902b7cbc4)
+
+![Näyttökuva 2024-09-30 230854](https://github.com/user-attachments/assets/1505862c-add6-4961-ba48-ff2ba845f81a)
+
+Tein vielä uudelleen seuraavat komennot:
+
+![Näyttökuva 2024-09-30 231135](https://github.com/user-attachments/assets/542e035b-eb52-4e90-a1cf-6561f6b320ca)
+
+ja kävin nyt tarkistamassa selaimella localhostin. Minua jäi nimittäin aiemmin häiritsemään configtest-pyynnön ilmoitus osoitteesta 127.0.1.1. ja se sai aikaan tuon ylhäällä olleen virheilmoituksen, eikä localhost eli 127.0.0.1. antanut kuin Forbidden-erroria. 
+
+Kävin tarkistamassa siis nuo osoitteet. 
+127.0.1.1. antoi tämän:
+
+![Näyttökuva 2024-09-30 231504](https://github.com/user-attachments/assets/9e1cb18a-5088-4d34-88a0-3b7d55532ac0)
+
+ja localhost tämän:
+
+![Näyttökuva 2024-09-30 231600](https://github.com/user-attachments/assets/ae6f244b-0121-4cfb-8213-906dcf1d7950)
+
+Tiedostossa kuitenkin näkyy, että localhost olisi tunnetuissa hosteissa... kävin tarkistamassa vielä manage.py sekä settings.py tiedostoja, olisko siellä ollut virheitä. Ei näyttänyt olevan, mutta vaihdoin DEBUG=True, jonka jälkeen tallensin ja käynnistin Apachen uudelleen. Nyt Django taas toimi.
+
+![Näyttökuva 2024-09-30 233019](https://github.com/user-attachments/assets/6a132db9-5769-46a3-8232-521486679f95)
+
+Sitten menin uudestaan järjestyksessä Teron ohjeiden mukaan, nyt toivoen, että toimisi.
+
+![Näyttökuva 2024-09-30 233512](https://github.com/user-attachments/assets/4d3622e7-f41c-460e-be4d-c5c7f5c5741d)
+
+![Näyttökuva 2024-09-30 233654](https://github.com/user-attachments/assets/ad48b92d-2ca0-41fb-a44f-36d7c6b05285)
+
+Kokeilin uudestaa curlia, kuten ohjeissa sanottiin eli **curl -s localhost|grep title**. 
+
+![Näyttökuva 2024-09-30 233831](https://github.com/user-attachments/assets/8d4c2935-7b44-4c76-a375-3b1d796dc628)
+
+<title>Not Found</title>, kuten ohjeissa. Eli saatoin sittenki aiemmin tehdä asiat aivan oikein, mutta paniikki ja ahdistus iskivät, enkä ollut riittävän tarkkana ohjeiden seuraamisessa. Tästä oppineena etenin vaihe vaiheelta eteenpäin.
+
+![Näyttökuva 2024-09-30 234047](https://github.com/user-attachments/assets/9d473ad1-f9d8-44c4-ac15-8e1ff1fb8b69)
+
+![Näyttökuva 2024-09-30 234104](https://github.com/user-attachments/assets/382b45cc-44f3-4f2f-8997-0fea22af4479)
+
+Eli nyt localhost ei toimi, kuten kuuluukin olla, mutta /admin sivulla tulee edes jotain näkyviin.
+Menin takasin settings.py tiedstoon, lisäämään hieman asiaa.
+
+![Näyttökuva 2024-09-30 234637](https://github.com/user-attachments/assets/ab79043c-fa93-4075-9b84-e7d6515df93f)
+
+![Näyttökuva 2024-09-30 234621](https://github.com/user-attachments/assets/0147b2ee-5d70-4c47-ae63-8bbc102ad5a0)
+
+Sitten ajettiin **./manage.py collectstatic** eli kerätään kaikki staattiset tiedostot talteen.
+Kävin tämän jälkeen tarkistamassa Firefoxissa, toimiiko localhost/admin, ja nyt näytti toimivan!
+
+![Näyttökuva 2024-09-30 235028](https://github.com/user-attachments/assets/46a9256a-d485-4fb9-9fe0-d50835b9d109)
+
+Eli nyt olisi Djangon tuotantoympäristö toiminnassa.
+
+Sain tehtävän valmiiksi 30.9.2024 klo 23.52. 
+Eli kokonaisaika joka meni tämän viikon tehtävään oli 7,5 tuntia.
+
+Kunniamaininta  kaverilleni Liisalle, jonka raportista sain apua, ja jota ilman en varmastikaan olisi selvinnyt tämän viikon tehtävästä. 
+
+## Lähteet
+
+Karvinen, T. 20222. Deploy Django 4 – Production Install. Saatavissa: https://terokarvinen.com/2022/deploy-django/. Luettu 30.9.2024.
+
+Karvinen, T. 2022.  Django 4 Instant Customer Database Tutorial. Saatavissa: https://terokarvinen.com/2022/django-instant-crm-tutorial/. Luettu 29.9.2024.
+
+Karvinen, T. 2024. Linux Palvelimet 2024 alkusyksy. Saatavissa: https://terokarvinen.com/linux-palvelimet/. Luettu 29.9.2024.
+
+Lesonen, L. 2023. h6. Saatavissa: https://github.com/LiisaLesonen/linux-palvelimet/blob/main/h6.md. Luettu 29.9.2024. 
