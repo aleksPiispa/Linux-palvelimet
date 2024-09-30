@@ -300,7 +300,7 @@ Kunniamaininta  kaverilleni Liisalle, jonka raportista sain apua, ja jota ilman 
 
 ## Lähteet
 
-Karvinen, T. 20222. Deploy Django 4 – Production Install. Saatavissa: https://terokarvinen.com/2022/deploy-django/. Luettu 30.9.2024.
+Karvinen, T. 2022. Deploy Django 4 – Production Install. Saatavissa: https://terokarvinen.com/2022/deploy-django/. Luettu 30.9.2024.
 
 Karvinen, T. 2022.  Django 4 Instant Customer Database Tutorial. Saatavissa: https://terokarvinen.com/2022/django-instant-crm-tutorial/. Luettu 29.9.2024.
 
