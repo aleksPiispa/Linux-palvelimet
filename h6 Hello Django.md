@@ -4,7 +4,7 @@ sekä suorittimena AMD Ryzen 5 6600HS Creator Edition.
 Näytönohjain: AMD Radeon 660M Graphics. Storage: M.2 SSD 512Gt, vapaana 343Gt.
 Koneelle on asennettu VirtualBox virtualisointiohjelma, joka pyörittää tehtävissä näkyvää Linux Debian-virtuaalikonetta.
 
-# h6 Hello Django
+# h6 Hello Django 
 
 ## a) Tee yksinkertainen esimerkkiohjelma Djangolla.
 
