@@ -96,3 +96,13 @@ Siitä huolimatta, asensin kuitenkin VirtualBoxiin uuden virtuaalikoneen *LabHar
 Asensin Teron tehtävän h1 mukaisesti uuden virtuaalikoneen arvioitavaa labraa varten. Loin käyttäjän ja annoin sille vahvan salasanan. Tein pakettipäivitykset **sudo apt-get update**, **sudo apt-get -y dist-upgrade** sekä asensin myös palomuurin, ja laitoin sen päälle **sudo ufw enable**. Kone sai nimekseen *AleksLab*, jotta se erottuisi selkeästi kurssilla muuten käyttämästäni virtuaalikoneesta.
 
 ![Näyttökuva 2024-10-04 221055](https://github.com/user-attachments/assets/6b178401-febe-456f-9bdf-3953a3ecdbb8)
+
+
+## Lähteet
+
+Karvinen, T. 2024. Linux palvelimet alkusyksy 2024. Saatavissa: https://terokarvinen.com/linux-palvelimet/. Luettu 2.10.2024.
+
+Karvinen, T. 2018, Hello World Python3, Bash, C, C++, Go, Lua, Ruby, Java – Programming Languages on Ubuntu 18.04. Saatavissa: 
+https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/. Luettu 2.10.2024
+
+Karvinen, T. 2007, Shell Scripting. Saatavissa: https://terokarvinen.com/2007/12/04/shell-scripting-4/. Luettu 2.10.2024.
