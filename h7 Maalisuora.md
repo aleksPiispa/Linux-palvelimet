@@ -13,7 +13,7 @@ Aloitin tekemään tehtävää 2.10.2024 klo 21.05
 Kurssi alkaa olemaan loppusuoralla, ja nyt on aika hieman opetella ohjelmointia.
 - Tässä tehtävässä tulen käyttämään muutamaa eri ohjelmointikieltä ja tekemään yksinkertaisen 'Hello World' koodin.
 - Lisäksi luon uuden shellscript komennon, joka on julkisessa käytössä. 
-- Käyn läpi vanhaa tehtävää hieman soveltaen, sekä asennan uuden Linux-virtuaalikoneen erillistä arvioitavaa labratehtävää varten.
+- Käy läpi vanhaa arvioitavaa labraharjoitusta hieman soveltaen, sekä asennan uuden Linux-virtuaalikoneen erillistä arvioitavaa labratehtävää varten.
 
 ## a) Kirjoita ja aja "Hei maailma" kolmella kielellä.
 
@@ -65,7 +65,7 @@ Eli sain kaikilla kolmella kielellä tulostumaan "Hello World"-tervehdyksen. Kie
 
 ## b)  Laita Linuxiin uusi komento niin, että kaikki käyttäjät voivat ajaa sitä.
 
-Tässä tehtävässä piti luoda ShellScripti, jota kaikki koneella olevat käyttäjät voivat ajaa voivat ajaa. Eli tämä menee eri oikeuksien alle (**ugo+rwx**), vaikka käyttäjällä ei olisi sudo-oikeuksia.
+Tässä tehtävässä piti luoda ShellScripti, jota kaikki koneella olevat käyttäjät voivat ajaa. Eli tämä menee eri oikeuksien alle (**ugo+rwx**), vaikka käyttäjällä ei olisi sudo-oikeuksia, jos ymmärsin oikein, mitä tässä haettiin.
 Aloitin sen luomalla microlla viesti.sh-tiedoston. Komento oli pelkkä viesti, jonka käyttäjälle ilmestyy kun antaa komennon.
 
 ![Näyttökuva 2024-10-02 213742](https://github.com/user-attachments/assets/f3e9ab7a-b349-46bc-a3d5-ed8613e4b301)
