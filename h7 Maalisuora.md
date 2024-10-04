@@ -65,8 +65,8 @@ Eli sain kaikilla kolmella kielellä tulostumaan "Hello World"-tervehdyksen. Kie
 
 ## b)  Laita Linuxiin uusi komento niin, että kaikki käyttäjät voivat ajaa sitä.
 
-Tässä tehtävässä piti luoda ShellScripti, jota kaikki voivat ajaa.
-Aloitin sen luomalla microlla viesti.sh-tiedoston. Komento oli pelkkä viesti, jonka käyttäjä saa kun antaa komennon.
+Tässä tehtävässä piti luoda ShellScripti, jota kaikki koneella olevat käyttäjät voivat ajaa voivat ajaa. Eli tämä menee eri oikeuksien alle (**ugo+rwx**), vaikka käyttäjällä ei olisi sudo-oikeuksia.
+Aloitin sen luomalla microlla viesti.sh-tiedoston. Komento oli pelkkä viesti, jonka käyttäjälle ilmestyy kun antaa komennon.
 
 ![Näyttökuva 2024-10-02 213742](https://github.com/user-attachments/assets/f3e9ab7a-b349-46bc-a3d5-ed8613e4b301)
 
