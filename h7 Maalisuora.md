@@ -83,13 +83,14 @@ Päätin nyt lopettaa tältä erää, ja jatkaa tehtävän seuraavat osat loppuu
 
 ## c) Ratkaise vanha arvioitava labratehtävä soveltavin osin.
 
-Rehellisesti myönnän, että tämän tehtävän tekeminen jäi osaltani todella heikoksi. Yksinkertaisesti aikaa ei ollut riittävästi käytössäni, jotta olisin pystynyt pitkäjänteisesti ja perinpohjaisesti käymään aiempia labraharjoituksia läpi. Liian monta kurssia samaan aikaan ja aikaa opiskellaa aivan liian vähän (ja ainoastaan myöhään iltaisin, aina ei onnistu silloinkaan. kts. vanhempainvapaalla ja paljon itkevä 1-vuotias). 
+*Pääsin jatkamaan tehtävien tekemistä 7.10.2024 klo 23 ->*
+Rehellisesti myönnän, että tämän tehtävän tekeminen jäi osaltani todella heikoksi. Yksinkertaisesti aikaa ei ollut riittävästi käytössäni, jotta olisin pystynyt pitkäjänteisesti ja perinpohjaisesti käymään aiempia labraharjoituksia läpi. Liian monta kurssia samaan aikaan sekä tentit ja aikaa opiskellaa aivan liian vähän (ja ainoastaan myöhään iltaisin, aina ei onnistu silloinkaan. kts. vanhempainvapaalla ja paljon itkevä 1-vuotias). 
 
 *Tämä menee varmaan siihen Teron niin sanottuun sepittämiseen, vaikka totta puhunkin.* 
 
 Luin kuitenkin vanhoja labratehtäviä läpi, ja huomasin, että monissa oli todella paljon eri asioita käyty kurssin aikana läpi vrt. tähän meidän kurssiimme. Tähän voi olla syynä muuttuneet käytännöt (lähiopetus vs. onlineopetus) sekä Ubuntun vaihtuminen Debianiin?
 
-Siitä huolimatta, asensin kuitenkin VirtualBoxiin uuden virtuaalikoneen *LabHarjoitus*, johon loin käyttäjän, ajoin päivitykset**sudo apt-get -y dist-upgrade** sekä **sudo apt-get update** ja asensin palomuurin **sudo apt-get install ufw**. Harjoittelin Apachen asennusta ja käyttöä, sillä siinä tuntuu olevan muistamista. Aion vielä tutkia edellisiä labroja läpi ja yritän kuitenkin "syyslomalla" tehdä ja katsella näitä arvioitavia labroja paremmmalla aikataululla, vaikka kurssi onkin siinä vaiheessa jo taputeltu. Tietenkin päivitän tänne sitten lisää.
+Siitä huolimatta, asensin kuitenkin VirtualBoxiin uuden virtuaalikoneen *LabHarjoitus*, johon loin käyttäjän, ajoin päivitykset **sudo apt-get -y dist-upgrade** sekä **sudo apt-get update** ja asensin palomuurin **sudo apt-get install ufw**. Harjoittelin Apachen asennusta ja käyttöä, sillä siinä tuntuu olevan muistamista. Aion vielä tutkia edellisiä labroja läpi mikäli vain ehdin ja yritän kuitenkin "syyslomalla" tehdä ja katsella näitä arvioitavia labroja paremmmalla aikataululla, vaikka kurssi onkin siinä vaiheessa jo taputeltu. Tietenkin päivitän tänne sitten lisää.
 
 ## d) Asenna itsellesi tyhjä virtuaalikone arvioitavaa labraa varten. 
 
@@ -97,6 +98,7 @@ Asensin Teron tehtävän h1 mukaisesti uuden virtuaalikoneen arvioitavaa labraa 
 
 ![Näyttökuva 2024-10-04 221055](https://github.com/user-attachments/assets/6b178401-febe-456f-9bdf-3953a3ecdbb8)
 
+Sain asennukset valmiiksi arvioitavaa labraa varten 8.10.2024 klo 01
 
 ## Lähteet
 
